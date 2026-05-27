@@ -45,6 +45,10 @@ export function getMatches(): Match[] {
   return loadJson<Match[]>("matches.json");
 }
 
+export function getMatch(id: string): Match | undefined {
+  return getMatches().find((m) => m.id === id);
+}
+
 export function getLeague(slug: string): League | undefined {
   return getLeagues().find((l) => l.slug === slug);
 }

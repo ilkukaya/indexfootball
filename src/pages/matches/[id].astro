@@ -1,0 +1,111 @@
+---
+import type { GetStaticPaths } from "astro";
+import type { Match } from "../../lib/types.ts";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumbs from "../../components/seo/Breadcrumbs.astro";
+import Logo from "../../components/ui/Logo.astro";
+import { getMatches, getClub, getLeague } from "../../lib/data.ts";
+import {
+  displaySeason,
+  formatDate,
+  formatHalfTime,
+  formatScore,
+} from "../../lib/format.ts";
+import { matchMeta } from "../../lib/seo.ts";
+
+export const getStaticPaths = (() => {
+  return getMatches().map((match) => ({
+    params: { id: match.id },
+    props: { match },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  match: Match;
+}
+
+const { match } = Astro.props;
+const home = getClub(match.home_club_id);
+const away = getClub(match.away_club_id);
+const league = getLeague(match.league_id);
+
+if (!home || !away || !league) return Astro.redirect("/leagues/");
+
+const meta = matchMeta(match, home, away, league);
+const seasonLabel = displaySeason(match.season);
+const ft = match.score.ft;
+const ht = formatHalfTime(match);
+---
+
+<BaseLayout title={meta.title} description={meta.description}>
+  <Breadcrumbs
+    items={[
+      { label: "Home", href: "/" },
+      { label: "Leagues", href: "/leagues/" },
+      { label: league.name, href: `/leagues/${league.slug}/` },
+      { label: seasonLabel, href: `/leagues/${league.slug}/${match.season}/` },
+      { label: `${home.name} v ${away.name}` },
+    ]}
+  />
+
+  <p class="mt-3 text-sm text-slate-500">
+    <a href={`/leagues/${league.slug}/${match.season}/`} class="hover:text-pitch-700">
+      {league.name} {seasonLabel}
+    </a>
+    {match.round !== null && <span> · Matchday {match.round}</span>}
+    {match.date && <span> · {formatDate(match.date, { weekday: true })}</span>}
+    {match.time && <span> · {match.time}</span>}
+  </p>
+
+  <div class="mt-4 rounded-2xl border border-slate-200 p-6">
+    <div class="grid grid-cols-[1fr_auto_1fr] items-center gap-4">
+      <div class="flex flex-col items-center gap-2 text-center sm:flex-row sm:justify-end">
+        <Logo name={home.name} slug={home.slug} size={48} />
+        <span class="text-lg font-semibold sm:text-xl">{home.name}</span>
+      </div>
+
+      <div class="text-center">
+        <div class="text-3xl font-extrabold tabular-nums sm:text-4xl">
+          {formatScore(match)}
+        </div>
+        {ht && <div class="mt-1 text-xs text-slate-400">HT {ht}</div>}
+        {!ft && <div class="mt-1 text-xs text-slate-400">Not played</div>}
+      </div>
+
+      <div class="flex flex-col items-center gap-2 text-center sm:flex-row sm:justify-start">
+        <Logo name={away.name} slug={away.slug} size={48} />
+        <span class="text-lg font-semibold sm:text-xl">{away.name}</span>
+      </div>
+    </div>
+  </div>
+
+  <dl class="mt-6 grid gap-3 text-sm sm:grid-cols-2">
+    <div class="rounded-lg border border-slate-200 px-4 py-3">
+      <dt class="text-xs uppercase tracking-wide text-slate-400">Competition</dt>
+      <dd class="mt-0.5 font-medium">
+        <a href={`/leagues/${league.slug}/`} class="hover:text-pitch-700">
+          {league.name}
+        </a>
+        · {seasonLabel}
+      </dd>
+    </div>
+    <div class="rounded-lg border border-slate-200 px-4 py-3">
+      <dt class="text-xs uppercase tracking-wide text-slate-400">Date</dt>
+      <dd class="mt-0.5 font-medium">
+        {match.date ? formatDate(match.date, { weekday: true, long: true }) : "TBD"}
+        {match.time ? ` · ${match.time}` : ""}
+      </dd>
+    </div>
+  </dl>
+
+  <div class="mt-6 flex gap-4 text-sm">
+    <a
+      href={`/leagues/${league.slug}/${match.season}/table`}
+      class="text-pitch-700 hover:underline">Season table</a
+    >
+    <a
+      href={`/leagues/${league.slug}/${match.season}/fixtures`}
+      class="text-pitch-700 hover:underline">All fixtures</a
+    >
+  </div>
+</BaseLayout>

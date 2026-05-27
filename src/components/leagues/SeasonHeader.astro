@@ -1,0 +1,78 @@
+---
+import type { League } from "../../lib/types.ts";
+import { displaySeason } from "../../lib/format.ts";
+import Breadcrumbs from "../seo/Breadcrumbs.astro";
+
+interface Props {
+  league: League;
+  season: string;
+  active: "overview" | "table" | "fixtures";
+}
+
+const { league, season, active } = Astro.props;
+const base = `/leagues/${league.slug}/${season}`;
+
+const tabs = [
+  { id: "overview", label: "Overview", href: `${base}/` },
+  { id: "table", label: "Table", href: `${base}/table` },
+  { id: "fixtures", label: "Fixtures", href: `${base}/fixtures` },
+];
+
+const otherSeasons = league.seasons.filter((s) => s !== season);
+---
+
+<div>
+  <Breadcrumbs
+    items={[
+      { label: "Home", href: "/" },
+      { label: "Leagues", href: "/leagues/" },
+      { label: league.name, href: `/leagues/${league.slug}/` },
+      { label: displaySeason(season) },
+    ]}
+  />
+
+  <div class="mt-3 flex flex-wrap items-end justify-between gap-3">
+    <h1 class="text-2xl font-extrabold tracking-tight sm:text-3xl">
+      {league.name}
+      <span class="font-semibold text-slate-400">{displaySeason(season)}</span>
+    </h1>
+    {
+      otherSeasons.length > 0 && (
+        <div class="flex flex-wrap items-center gap-1.5 text-xs">
+          <span class="text-slate-400">Seasons:</span>
+          {otherSeasons.map((s) => (
+            <a
+              href={`/leagues/${league.slug}/${s}/`}
+              class="rounded border border-slate-200 px-1.5 py-0.5 text-slate-600 hover:border-pitch-300 hover:text-pitch-700"
+            >
+              {displaySeason(s)}
+            </a>
+          ))}
+        </div>
+      )
+    }
+  </div>
+
+  <nav class="mt-4 border-b border-slate-200" aria-label="Season sections">
+    <ul class="flex gap-1">
+      {
+        tabs.map((tab) => (
+          <li>
+            <a
+              href={tab.href}
+              aria-current={active === tab.id ? "page" : undefined}
+              class:list={[
+                "inline-block border-b-2 px-3 py-2 text-sm font-medium transition-colors",
+                active === tab.id
+                  ? "border-pitch-600 text-pitch-700"
+                  : "border-transparent text-slate-500 hover:text-slate-800",
+              ]}
+            >
+              {tab.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</div>

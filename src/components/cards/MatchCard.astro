@@ -1,0 +1,55 @@
+---
+import type { Club, League, Match } from "../../lib/types.ts";
+import { formatDate, formatScore } from "../../lib/format.ts";
+import Logo from "../ui/Logo.astro";
+
+interface Props {
+  match: Match;
+  home: Club;
+  away: Club;
+  league?: League;
+}
+
+const { match, home, away, league } = Astro.props;
+const ft = match.score.ft;
+const homeWin = ft ? ft.home > ft.away : false;
+const awayWin = ft ? ft.away > ft.home : false;
+---
+
+<a
+  href={`/matches/${match.id}`}
+  class="flex items-center gap-3 rounded-lg border border-slate-200 px-3 py-2 text-sm transition-colors hover:border-pitch-300 hover:bg-pitch-50"
+>
+  <time
+    datetime={match.date ?? undefined}
+    class="hidden w-24 shrink-0 text-xs text-slate-500 sm:block"
+  >
+    {formatDate(match.date)}
+  </time>
+
+  <span class="flex flex-1 items-center justify-end gap-2 text-right">
+    <span class:list={["truncate", homeWin ? "font-semibold" : ""]}>
+      {home.name}
+    </span>
+    <Logo name={home.name} slug={home.slug} size={20} />
+  </span>
+
+  <span class="shrink-0 rounded bg-slate-100 px-2 py-0.5 font-bold tabular-nums">
+    {formatScore(match)}
+  </span>
+
+  <span class="flex flex-1 items-center gap-2">
+    <Logo name={away.name} slug={away.slug} size={20} />
+    <span class:list={["truncate", awayWin ? "font-semibold" : ""]}>
+      {away.name}
+    </span>
+  </span>
+
+  {
+    league && (
+      <span class="hidden shrink-0 text-xs text-slate-400 lg:block">
+        {league.name}
+      </span>
+    )
+  }
+</a>

@@ -1,0 +1,49 @@
+---
+// Club crest placeholder. Phase 3 renders an initials-on-color badge; Phase 4
+// will swap in cached logos from TheSportsDB with this as the fallback.
+interface Props {
+  name: string;
+  slug: string;
+  size?: number;
+  class?: string;
+}
+
+const { name, slug, size = 24, class: className = "" } = Astro.props;
+
+const IGNORE = /^(FC|AFC|CF|SC|AC|SV|US|SS)$/i;
+const words = name.split(/\s+/).filter((w) => !IGNORE.test(w));
+const initials =
+  (words.length >= 2
+    ? words[0][0] + words[1][0]
+    : (words[0] ?? name).slice(0, 2)
+  ).toUpperCase();
+
+// Deterministic colour from the slug so each club is visually distinct.
+const PALETTE = [
+  "#dc2626",
+  "#ea580c",
+  "#d97706",
+  "#16a34a",
+  "#0891b2",
+  "#2563eb",
+  "#7c3aed",
+  "#db2777",
+  "#475569",
+  "#0f766e",
+];
+let hash = 0;
+for (const ch of slug) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+const color = PALETTE[hash % PALETTE.length];
+---
+
+<span
+  class:list={[
+    "inline-flex shrink-0 items-center justify-center rounded-full font-bold text-white",
+    className,
+  ]}
+  style={`width:${size}px;height:${size}px;background-color:${color};font-size:${Math.round(size * 0.42)}px`}
+  aria-hidden="true"
+  title={name}
+>
+  {initials}
+</span>

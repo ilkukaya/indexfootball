@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumbs from "../../components/seo/Breadcrumbs.astro";
+import { getLeagues } from "../../lib/data.ts";
+import { displaySeason } from "../../lib/format.ts";
+import { leaguesIndexMeta } from "../../lib/seo.ts";
+
+const leagues = getLeagues();
+const meta = leaguesIndexMeta();
+---
+
+<BaseLayout title={meta.title} description={meta.description}>
+  <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Leagues" }]} />
+
+  <h1 class="mt-3 text-3xl font-extrabold tracking-tight">Leagues</h1>
+  <p class="mt-2 max-w-2xl text-slate-600">
+    Standings, fixtures and results for {leagues.length} league{
+      leagues.length === 1 ? "" : "s"
+    }, computed from open match data.
+  </p>
+
+  <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {
+      leagues.map((league) => {
+        const latest = league.seasons[0];
+        return (
+          <li>
+            <a
+              href={`/leagues/${league.slug}/`}
+              class="block rounded-xl border border-slate-200 p-5 transition-colors hover:border-pitch-300 hover:bg-pitch-50"
+            >
+              <h2 class="text-lg font-semibold text-slate-900">
+                {league.name}
+              </h2>
+              <p class="mt-1 text-sm text-slate-500">{league.country}</p>
+              <p class="mt-3 text-xs text-slate-400">
+                {league.seasons.length} season
+                {league.seasons.length === 1 ? "" : "s"}
+                {latest ? ` · latest ${displaySeason(latest)}` : ""}
+              </p>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</BaseLayout>

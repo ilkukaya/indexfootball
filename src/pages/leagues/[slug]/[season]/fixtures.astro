@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import SeasonHeader from "../../../../components/leagues/SeasonHeader.astro";
+import FixturesTable from "../../../../components/tables/FixturesTable.astro";
+import {
+  getLeagues,
+  getLeague,
+  getClubsByLeague,
+  getMatchesByLeagueSeason,
+} from "../../../../lib/data.ts";
+import { displaySeason } from "../../../../lib/format.ts";
+import { leagueSeasonMeta } from "../../../../lib/seo.ts";
+
+export const getStaticPaths = (() => {
+  return getLeagues().flatMap((league) =>
+    league.seasons.map((season) => ({
+      params: { slug: league.slug, season },
+    })),
+  );
+}) satisfies GetStaticPaths;
+
+const { slug, season } = Astro.params;
+const league = getLeague(slug);
+if (!league) return Astro.redirect("/leagues/");
+
+const clubs = getClubsByLeague(league.id);
+const matches = getMatchesByLeagueSeason(league.id, season);
+
+const base = leagueSeasonMeta(league, season, clubs.length, matches.length);
+const meta = {
+  title: `${league.name} ${displaySeason(season)} Fixtures & Results - IndexFootball`,
+  description: base.description,
+};
+---
+
+<BaseLayout title={meta.title} description={meta.description}>
+  <SeasonHeader league={league} season={season} active="fixtures" />
+
+  <h2 class="mt-6 text-lg font-semibold">Fixtures &amp; results</h2>
+  <div class="mt-3">
+    <FixturesTable matches={matches} clubs={clubs} />
+  </div>
+</BaseLayout>

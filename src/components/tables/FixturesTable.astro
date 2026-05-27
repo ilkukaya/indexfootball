@@ -1,0 +1,61 @@
+---
+import type { Club, Match } from "../../lib/types.ts";
+import MatchCard from "../cards/MatchCard.astro";
+
+interface Props {
+  matches: Match[];
+  clubs: Club[];
+}
+
+const { matches, clubs } = Astro.props;
+
+const clubById = new Map(clubs.map((c) => [c.id, c]));
+
+// Group by matchday (round), ordered by round then date/time.
+const rounds = new Map<number, Match[]>();
+const noRound: Match[] = [];
+for (const m of matches) {
+  if (m.round === null) {
+    noRound.push(m);
+    continue;
+  }
+  const list = rounds.get(m.round) ?? [];
+  list.push(m);
+  rounds.set(m.round, list);
+}
+
+const sortMatches = (list: Match[]) =>
+  [...list].sort(
+    (a, b) =>
+      (a.date ?? "").localeCompare(b.date ?? "") ||
+      (a.time ?? "").localeCompare(b.time ?? ""),
+  );
+
+const groups: { round: number | null; matches: Match[] }[] = [
+  ...[...rounds.keys()]
+    .sort((a, b) => a - b)
+    .map((round) => ({ round, matches: sortMatches(rounds.get(round)!) })),
+];
+if (noRound.length) groups.push({ round: null, matches: sortMatches(noRound) });
+---
+
+<div class="space-y-6">
+  {
+    groups.map((group) => (
+      <section>
+        <h3 class="mb-2 text-sm font-semibold text-slate-500">
+          {group.round !== null ? `Matchday ${group.round}` : "Other matches"}
+        </h3>
+        <div class="space-y-1.5">
+          {group.matches.map((m) => {
+            const home = clubById.get(m.home_club_id);
+            const away = clubById.get(m.away_club_id);
+            return home && away ? (
+              <MatchCard match={m} home={home} away={away} />
+            ) : null;
+          })}
+        </div>
+      </section>
+    ))
+  }
+</div>

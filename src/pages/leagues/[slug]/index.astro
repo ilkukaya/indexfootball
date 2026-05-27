@@ -1,0 +1,91 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Breadcrumbs from "../../../components/seo/Breadcrumbs.astro";
+import StandingsTable from "../../../components/tables/StandingsTable.astro";
+import {
+  getLeagues,
+  getLeague,
+  getClubsByLeague,
+  getMatchesByLeagueSeason,
+} from "../../../lib/data.ts";
+import { displaySeason } from "../../../lib/format.ts";
+import { leagueHubMeta } from "../../../lib/seo.ts";
+
+export const getStaticPaths = (() => {
+  return getLeagues().map((league) => ({ params: { slug: league.slug } }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const league = getLeague(slug);
+if (!league) return Astro.redirect("/leagues/");
+
+const latest = league.seasons[0];
+const clubs = getClubsByLeague(league.id);
+const matches = latest ? getMatchesByLeagueSeason(league.id, latest) : [];
+const meta = leagueHubMeta(league);
+---
+
+<BaseLayout title={meta.title} description={meta.description}>
+  <Breadcrumbs
+    items={[
+      { label: "Home", href: "/" },
+      { label: "Leagues", href: "/leagues/" },
+      { label: league.name },
+    ]}
+  />
+
+  <h1 class="mt-3 text-3xl font-extrabold tracking-tight">{league.name}</h1>
+  <p class="mt-2 text-slate-600">
+    {league.country} · tier {league.tier} · {league.seasons.length} season{
+      league.seasons.length === 1 ? "" : "s"
+    }
+  </p>
+
+  <h2 class="mt-8 text-sm font-semibold uppercase tracking-wide text-slate-500">
+    Seasons
+  </h2>
+  <ul class="mt-2 flex flex-wrap gap-2">
+    {
+      league.seasons.map((s) => (
+        <li>
+          <a
+            href={`/leagues/${league.slug}/${s}/`}
+            class="rounded-lg border border-slate-200 px-3 py-1.5 text-sm font-medium hover:border-pitch-300 hover:bg-pitch-50 hover:text-pitch-700"
+          >
+            {displaySeason(s)}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  {
+    latest && (
+      <section class="mt-8">
+        <div class="flex items-end justify-between">
+          <h2 class="text-lg font-semibold">
+            {displaySeason(latest)} table
+          </h2>
+          <div class="flex gap-3 text-sm">
+            <a
+              href={`/leagues/${league.slug}/${latest}/table`}
+              class="text-pitch-700 hover:underline"
+            >
+              Full table
+            </a>
+            <a
+              href={`/leagues/${league.slug}/${latest}/fixtures`}
+              class="text-pitch-700 hover:underline"
+            >
+              Fixtures
+            </a>
+          </div>
+        </div>
+        <div class="mt-3">
+          <StandingsTable matches={matches} clubs={clubs} season={latest} />
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>

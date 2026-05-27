@@ -1,0 +1,81 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import SeasonHeader from "../../../../components/leagues/SeasonHeader.astro";
+import StandingsTable from "../../../../components/tables/StandingsTable.astro";
+import MatchCard from "../../../../components/cards/MatchCard.astro";
+import {
+  getLeagues,
+  getLeague,
+  getClubsByLeague,
+  getMatchesByLeagueSeason,
+} from "../../../../lib/data.ts";
+import { leagueSeasonMeta } from "../../../../lib/seo.ts";
+
+export const getStaticPaths = (() => {
+  return getLeagues().flatMap((league) =>
+    league.seasons.map((season) => ({
+      params: { slug: league.slug, season },
+    })),
+  );
+}) satisfies GetStaticPaths;
+
+const { slug, season } = Astro.params;
+const league = getLeague(slug);
+if (!league) return Astro.redirect("/leagues/");
+
+const clubs = getClubsByLeague(league.id);
+const matches = getMatchesByLeagueSeason(league.id, season);
+const clubById = new Map(clubs.map((c) => [c.id, c]));
+
+const recent = [...matches]
+  .filter((m) => m.score.ft)
+  .sort(
+    (a, b) =>
+      (b.date ?? "").localeCompare(a.date ?? "") ||
+      (b.time ?? "").localeCompare(a.time ?? ""),
+  )
+  .slice(0, 8);
+
+const meta = leagueSeasonMeta(league, season, clubs.length, matches.length);
+---
+
+<BaseLayout title={meta.title} description={meta.description}>
+  <SeasonHeader league={league} season={season} active="overview" />
+
+  <div class="mt-6 grid gap-8 lg:grid-cols-[1fr_22rem]">
+    <section>
+      <div class="flex items-end justify-between">
+        <h2 class="text-lg font-semibold">Table</h2>
+        <a
+          href={`/leagues/${league.slug}/${season}/table`}
+          class="text-sm text-pitch-700 hover:underline">Full table</a
+        >
+      </div>
+      <div class="mt-3">
+        <StandingsTable matches={matches} clubs={clubs} season={season} />
+      </div>
+    </section>
+
+    <section>
+      <div class="flex items-end justify-between">
+        <h2 class="text-lg font-semibold">Recent results</h2>
+        <a
+          href={`/leagues/${league.slug}/${season}/fixtures`}
+          class="text-sm text-pitch-700 hover:underline">All fixtures</a
+        >
+      </div>
+      <div class="mt-3 space-y-1.5">
+        {
+          recent.map((m) => {
+            const home = clubById.get(m.home_club_id);
+            const away = clubById.get(m.away_club_id);
+            return home && away ? (
+              <MatchCard match={m} home={home} away={away} />
+            ) : null;
+          })
+        }
+      </div>
+    </section>
+  </div>
+</BaseLayout>

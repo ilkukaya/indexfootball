@@ -1,0 +1,202 @@
+[
+  {
+    "id": "afc-bournemouth",
+    "slug": "afc-bournemouth",
+    "name": "AFC Bournemouth",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "arsenal",
+    "slug": "arsenal",
+    "name": "Arsenal",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "aston-villa",
+    "slug": "aston-villa",
+    "name": "Aston Villa",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "brentford",
+    "slug": "brentford",
+    "name": "Brentford",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "brighton-and-hove-albion",
+    "slug": "brighton-and-hove-albion",
+    "name": "Brighton & Hove Albion",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "chelsea",
+    "slug": "chelsea",
+    "name": "Chelsea",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "crystal-palace",
+    "slug": "crystal-palace",
+    "name": "Crystal Palace",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "everton",
+    "slug": "everton",
+    "name": "Everton",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "fulham",
+    "slug": "fulham",
+    "name": "Fulham",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "ipswich-town",
+    "slug": "ipswich-town",
+    "name": "Ipswich Town",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "leicester-city",
+    "slug": "leicester-city",
+    "name": "Leicester City",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "liverpool",
+    "slug": "liverpool",
+    "name": "Liverpool",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "manchester-city",
+    "slug": "manchester-city",
+    "name": "Manchester City",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "manchester-united",
+    "slug": "manchester-united",
+    "name": "Manchester United",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "newcastle-united",
+    "slug": "newcastle-united",
+    "name": "Newcastle United",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "nottingham-forest",
+    "slug": "nottingham-forest",
+    "name": "Nottingham Forest",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "southampton",
+    "slug": "southampton",
+    "name": "Southampton",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "tottenham-hotspur",
+    "slug": "tottenham-hotspur",
+    "name": "Tottenham Hotspur",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "west-ham-united",
+    "slug": "west-ham-united",
+    "name": "West Ham United",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": "wolverhampton-wanderers",
+    "slug": "wolverhampton-wanderers",
+    "name": "Wolverhampton Wanderers",
+    "country": "England",
+    "founded": null,
+    "league_ids": [
+      "premier-league"
+    ]
+  }
+]

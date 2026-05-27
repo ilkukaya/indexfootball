@@ -6,11 +6,13 @@ import Footer from "../components/nav/Footer.astro";
 interface Props {
   title?: string;
   description?: string;
+  noindex?: boolean;
 }
 
 const {
   title = "IndexFootball — The Free Football Encyclopedia",
   description = "IndexFootball is a free football encyclopedia: players, clubs, leagues, matches and history. Stats and history, built on open data.",
+  noindex = false,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
@@ -24,6 +26,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonical} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <title>{title}</title>
     <meta name="description" content={description} />

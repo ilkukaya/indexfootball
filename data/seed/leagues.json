@@ -1,0 +1,13 @@
+[
+  {
+    "id": "premier-league",
+    "slug": "premier-league",
+    "name": "Premier League",
+    "country": "England",
+    "countrySlug": "england",
+    "tier": 1,
+    "seasons": [
+      "2024-25"
+    ]
+  }
+]

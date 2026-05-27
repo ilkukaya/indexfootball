@@ -45,11 +45,20 @@ npm run dev      # local dev server at http://localhost:4321
 
 ### Local development data
 
-For local development the site reads small, committed **seed** data from
-`data/seed/` (e.g. `premier-league-2024-25.json`). The full dataset is fetched
-and normalized at build time into `data/raw/` and `data/processed/`, both of
-which are git-ignored. Data fetching/processing (`npm run fetch:all`,
-`npm run process`) is implemented in Phase 2.
+The data pipeline clones OpenFootball at build time into `data/raw/` and
+normalizes it into `data/processed/{leagues,clubs,matches}.json` — both
+git-ignored and regenerated fresh in CI:
+
+```sh
+npm run data          # fetch:all + process
+# or individually:
+npm run fetch:all     # shallow-clone the OpenFootball repos into data/raw/
+npm run process       # normalize into data/processed/
+```
+
+A committed **seed** snapshot of the same JSON lives in `data/seed/`, so
+`npm run dev` and `npm run build` work offline without first running the
+pipeline (loaders prefer `data/processed/`, falling back to `data/seed/`).
 
 ## Project structure
 
@@ -103,9 +112,10 @@ club, league or governing body.
 
 Development follows the phased plan in `PROJECT_SPEC.md` §7:
 
-1. **Phase 1 — Skeleton** ✅ (this commit): Astro + Tailwind, layout, nav,
-   placeholder homepage, CI workflow, Netlify config.
-2. Phase 2 — Data pipeline (Premier League 2024-25 as the proving ground).
+1. **Phase 1 — Skeleton** ✅: Astro + Tailwind, layout, nav, placeholder
+   homepage, CI workflow, Netlify config.
+2. **Phase 2 — Data pipeline** ✅: OpenFootball fetch + normalize for Premier
+   League 2024-25; typed loaders, standings computation, `/debug` verifier.
 3. Phase 3 — League & match pages.
 4. Phase 4 — Club pages.
 5. Phase 5 — Player pages.

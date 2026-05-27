@@ -1,0 +1,7554 @@
+[
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-fulham",
+    "date": "2024-08-16",
+    "time": "20:00",
+    "round": 1,
+    "home_club_id": "manchester-united",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-liverpool",
+    "date": "2024-08-17",
+    "time": "12:30",
+    "round": 1,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-wolverhampton-wanderers",
+    "date": "2024-08-17",
+    "time": "15:00",
+    "round": 1,
+    "home_club_id": "arsenal",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-brighton-and-hove-albion",
+    "date": "2024-08-17",
+    "time": "15:00",
+    "round": 1,
+    "home_club_id": "everton",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-southampton",
+    "date": "2024-08-17",
+    "time": "15:00",
+    "round": 1,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-afc-bournemouth",
+    "date": "2024-08-17",
+    "time": "15:00",
+    "round": 1,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-aston-villa",
+    "date": "2024-08-17",
+    "time": "17:30",
+    "round": 1,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-crystal-palace",
+    "date": "2024-08-18",
+    "time": "14:00",
+    "round": 1,
+    "home_club_id": "brentford",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-manchester-city",
+    "date": "2024-08-18",
+    "time": "16:30",
+    "round": 1,
+    "home_club_id": "chelsea",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-tottenham-hotspur",
+    "date": "2024-08-19",
+    "time": "20:00",
+    "round": 1,
+    "home_club_id": "leicester-city",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-manchester-united",
+    "date": "2024-08-24",
+    "time": "12:30",
+    "round": 2,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-west-ham-united",
+    "date": "2024-08-24",
+    "time": "15:00",
+    "round": 2,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-leicester-city",
+    "date": "2024-08-24",
+    "time": "15:00",
+    "round": 2,
+    "home_club_id": "fulham",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-ipswich-town",
+    "date": "2024-08-24",
+    "time": "15:00",
+    "round": 2,
+    "home_club_id": "manchester-city",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-nottingham-forest",
+    "date": "2024-08-24",
+    "time": "15:00",
+    "round": 2,
+    "home_club_id": "southampton",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-everton",
+    "date": "2024-08-24",
+    "time": "15:00",
+    "round": 2,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-arsenal",
+    "date": "2024-08-24",
+    "time": "17:30",
+    "round": 2,
+    "home_club_id": "aston-villa",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-newcastle-united",
+    "date": "2024-08-25",
+    "time": "14:00",
+    "round": 2,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-chelsea",
+    "date": "2024-08-25",
+    "time": "14:00",
+    "round": 2,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 2
+      },
+      "ft": {
+        "home": 2,
+        "away": 6
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-brentford",
+    "date": "2024-08-25",
+    "time": "16:30",
+    "round": 2,
+    "home_club_id": "liverpool",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-brighton-and-hove-albion",
+    "date": "2024-08-31",
+    "time": "12:30",
+    "round": 3,
+    "home_club_id": "arsenal",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-southampton",
+    "date": "2024-08-31",
+    "time": "15:00",
+    "round": 3,
+    "home_club_id": "brentford",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-afc-bournemouth",
+    "date": "2024-08-31",
+    "time": "15:00",
+    "round": 3,
+    "home_club_id": "everton",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-fulham",
+    "date": "2024-08-31",
+    "time": "15:00",
+    "round": 3,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-aston-villa",
+    "date": "2024-08-31",
+    "time": "15:00",
+    "round": 3,
+    "home_club_id": "leicester-city",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-wolverhampton-wanderers",
+    "date": "2024-08-31",
+    "time": "15:00",
+    "round": 3,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-manchester-city",
+    "date": "2024-08-31",
+    "time": "17:30",
+    "round": 3,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-crystal-palace",
+    "date": "2024-09-01",
+    "time": "13:30",
+    "round": 3,
+    "home_club_id": "chelsea",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-tottenham-hotspur",
+    "date": "2024-09-01",
+    "time": "13:30",
+    "round": 3,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-liverpool",
+    "date": "2024-09-01",
+    "time": "16:00",
+    "round": 3,
+    "home_club_id": "manchester-united",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-manchester-united",
+    "date": "2024-09-14",
+    "time": "12:30",
+    "round": 4,
+    "home_club_id": "southampton",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-ipswich-town",
+    "date": "2024-09-14",
+    "time": "15:00",
+    "round": 4,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-leicester-city",
+    "date": "2024-09-14",
+    "time": "15:00",
+    "round": 4,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-west-ham-united",
+    "date": "2024-09-14",
+    "time": "15:00",
+    "round": 4,
+    "home_club_id": "fulham",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-nottingham-forest",
+    "date": "2024-09-14",
+    "time": "15:00",
+    "round": 4,
+    "home_club_id": "liverpool",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-brentford",
+    "date": "2024-09-14",
+    "time": "15:00",
+    "round": 4,
+    "home_club_id": "manchester-city",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-everton",
+    "date": "2024-09-14",
+    "time": "17:30",
+    "round": 4,
+    "home_club_id": "aston-villa",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-chelsea",
+    "date": "2024-09-14",
+    "time": "20:00",
+    "round": 4,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-arsenal",
+    "date": "2024-09-15",
+    "time": "14:00",
+    "round": 4,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-newcastle-united",
+    "date": "2024-09-15",
+    "time": "16:30",
+    "round": 4,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-chelsea",
+    "date": "2024-09-21",
+    "time": "12:30",
+    "round": 5,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-wolverhampton-wanderers",
+    "date": "2024-09-21",
+    "time": "15:00",
+    "round": 5,
+    "home_club_id": "aston-villa",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-newcastle-united",
+    "date": "2024-09-21",
+    "time": "15:00",
+    "round": 5,
+    "home_club_id": "fulham",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-everton",
+    "date": "2024-09-21",
+    "time": "15:00",
+    "round": 5,
+    "home_club_id": "leicester-city",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-afc-bournemouth",
+    "date": "2024-09-21",
+    "time": "15:00",
+    "round": 5,
+    "home_club_id": "liverpool",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-ipswich-town",
+    "date": "2024-09-21",
+    "time": "15:00",
+    "round": 5,
+    "home_club_id": "southampton",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-brentford",
+    "date": "2024-09-21",
+    "time": "15:00",
+    "round": 5,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-manchester-united",
+    "date": "2024-09-21",
+    "time": "17:30",
+    "round": 5,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-nottingham-forest",
+    "date": "2024-09-22",
+    "time": "14:00",
+    "round": 5,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-arsenal",
+    "date": "2024-09-22",
+    "time": "16:30",
+    "round": 5,
+    "home_club_id": "manchester-city",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-manchester-city",
+    "date": "2024-09-28",
+    "time": "12:30",
+    "round": 6,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-leicester-city",
+    "date": "2024-09-28",
+    "time": "15:00",
+    "round": 6,
+    "home_club_id": "arsenal",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-west-ham-united",
+    "date": "2024-09-28",
+    "time": "15:00",
+    "round": 6,
+    "home_club_id": "brentford",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-brighton-and-hove-albion",
+    "date": "2024-09-28",
+    "time": "15:00",
+    "round": 6,
+    "home_club_id": "chelsea",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 4,
+        "away": 2
+      },
+      "ft": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-crystal-palace",
+    "date": "2024-09-28",
+    "time": "15:00",
+    "round": 6,
+    "home_club_id": "everton",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-fulham",
+    "date": "2024-09-28",
+    "time": "15:00",
+    "round": 6,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-liverpool",
+    "date": "2024-09-28",
+    "time": "17:30",
+    "round": 6,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-aston-villa",
+    "date": "2024-09-29",
+    "time": "14:00",
+    "round": 6,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-tottenham-hotspur",
+    "date": "2024-09-29",
+    "time": "16:30",
+    "round": 6,
+    "home_club_id": "manchester-united",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-southampton",
+    "date": "2024-09-30",
+    "time": "20:00",
+    "round": 6,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-liverpool",
+    "date": "2024-10-05",
+    "time": "12:30",
+    "round": 7,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-southampton",
+    "date": "2024-10-05",
+    "time": "15:00",
+    "round": 7,
+    "home_club_id": "arsenal",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-wolverhampton-wanderers",
+    "date": "2024-10-05",
+    "time": "15:00",
+    "round": 7,
+    "home_club_id": "brentford",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 4,
+        "away": 2
+      },
+      "ft": {
+        "home": 5,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-afc-bournemouth",
+    "date": "2024-10-05",
+    "time": "15:00",
+    "round": 7,
+    "home_club_id": "leicester-city",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-fulham",
+    "date": "2024-10-05",
+    "time": "15:00",
+    "round": 7,
+    "home_club_id": "manchester-city",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-ipswich-town",
+    "date": "2024-10-05",
+    "time": "15:00",
+    "round": 7,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-newcastle-united",
+    "date": "2024-10-05",
+    "time": "17:30",
+    "round": 7,
+    "home_club_id": "everton",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-manchester-united",
+    "date": "2024-10-06",
+    "time": "14:00",
+    "round": 7,
+    "home_club_id": "aston-villa",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-nottingham-forest",
+    "date": "2024-10-06",
+    "time": "14:00",
+    "round": 7,
+    "home_club_id": "chelsea",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-tottenham-hotspur",
+    "date": "2024-10-06",
+    "time": "16:30",
+    "round": 7,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-west-ham-united",
+    "date": "2024-10-19",
+    "time": "12:30",
+    "round": 8,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-aston-villa",
+    "date": "2024-10-19",
+    "time": "15:00",
+    "round": 8,
+    "home_club_id": "fulham",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-everton",
+    "date": "2024-10-19",
+    "time": "15:00",
+    "round": 8,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-brentford",
+    "date": "2024-10-19",
+    "time": "15:00",
+    "round": 8,
+    "home_club_id": "manchester-united",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-brighton-and-hove-albion",
+    "date": "2024-10-19",
+    "time": "15:00",
+    "round": 8,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-leicester-city",
+    "date": "2024-10-19",
+    "time": "15:00",
+    "round": 8,
+    "home_club_id": "southampton",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-arsenal",
+    "date": "2024-10-19",
+    "time": "17:30",
+    "round": 8,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-manchester-city",
+    "date": "2024-10-20",
+    "time": "14:00",
+    "round": 8,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-chelsea",
+    "date": "2024-10-20",
+    "time": "16:30",
+    "round": 8,
+    "home_club_id": "liverpool",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-crystal-palace",
+    "date": "2024-10-21",
+    "time": "20:00",
+    "round": 8,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-nottingham-forest",
+    "date": "2024-10-25",
+    "time": "20:00",
+    "round": 9,
+    "home_club_id": "leicester-city",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-afc-bournemouth",
+    "date": "2024-10-26",
+    "time": "15:00",
+    "round": 9,
+    "home_club_id": "aston-villa",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-ipswich-town",
+    "date": "2024-10-26",
+    "time": "15:00",
+    "round": 9,
+    "home_club_id": "brentford",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 2
+      },
+      "ft": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-wolverhampton-wanderers",
+    "date": "2024-10-26",
+    "time": "15:00",
+    "round": 9,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-southampton",
+    "date": "2024-10-26",
+    "time": "15:00",
+    "round": 9,
+    "home_club_id": "manchester-city",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-fulham",
+    "date": "2024-10-26",
+    "time": "17:30",
+    "round": 9,
+    "home_club_id": "everton",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-newcastle-united",
+    "date": "2024-10-27",
+    "time": "14:00",
+    "round": 9,
+    "home_club_id": "chelsea",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-tottenham-hotspur",
+    "date": "2024-10-27",
+    "time": "14:00",
+    "round": 9,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-manchester-united",
+    "date": "2024-10-27",
+    "time": "14:00",
+    "round": 9,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-liverpool",
+    "date": "2024-10-27",
+    "time": "16:30",
+    "round": 9,
+    "home_club_id": "arsenal",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-arsenal",
+    "date": "2024-11-02",
+    "time": "12:30",
+    "round": 10,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-manchester-city",
+    "date": "2024-11-02",
+    "time": "15:00",
+    "round": 10,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-leicester-city",
+    "date": "2024-11-02",
+    "time": "15:00",
+    "round": 10,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-brighton-and-hove-albion",
+    "date": "2024-11-02",
+    "time": "15:00",
+    "round": 10,
+    "home_club_id": "liverpool",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-west-ham-united",
+    "date": "2024-11-02",
+    "time": "15:00",
+    "round": 10,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-everton",
+    "date": "2024-11-02",
+    "time": "15:00",
+    "round": 10,
+    "home_club_id": "southampton",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-crystal-palace",
+    "date": "2024-11-02",
+    "time": "17:30",
+    "round": 10,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-aston-villa",
+    "date": "2024-11-03",
+    "time": "14:00",
+    "round": 10,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-chelsea",
+    "date": "2024-11-03",
+    "time": "16:30",
+    "round": 10,
+    "home_club_id": "manchester-united",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-brentford",
+    "date": "2024-11-04",
+    "time": "20:00",
+    "round": 10,
+    "home_club_id": "fulham",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-afc-bournemouth",
+    "date": "2024-11-09",
+    "time": "15:00",
+    "round": 11,
+    "home_club_id": "brentford",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-fulham",
+    "date": "2024-11-09",
+    "time": "15:00",
+    "round": 11,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-everton",
+    "date": "2024-11-09",
+    "time": "15:00",
+    "round": 11,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "everton",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-southampton",
+    "date": "2024-11-09",
+    "time": "15:00",
+    "round": 11,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-manchester-city",
+    "date": "2024-11-09",
+    "time": "17:30",
+    "round": 11,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-aston-villa",
+    "date": "2024-11-09",
+    "time": "20:00",
+    "round": 11,
+    "home_club_id": "liverpool",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-leicester-city",
+    "date": "2024-11-10",
+    "time": "14:00",
+    "round": 11,
+    "home_club_id": "manchester-united",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-newcastle-united",
+    "date": "2024-11-10",
+    "time": "14:00",
+    "round": 11,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-ipswich-town",
+    "date": "2024-11-10",
+    "time": "14:00",
+    "round": 11,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-arsenal",
+    "date": "2024-11-10",
+    "time": "16:30",
+    "round": 11,
+    "home_club_id": "chelsea",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-chelsea",
+    "date": "2024-11-23",
+    "time": "12:30",
+    "round": 12,
+    "home_club_id": "leicester-city",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-brighton-and-hove-albion",
+    "date": "2024-11-23",
+    "time": "15:00",
+    "round": 12,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-nottingham-forest",
+    "date": "2024-11-23",
+    "time": "15:00",
+    "round": 12,
+    "home_club_id": "arsenal",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-crystal-palace",
+    "date": "2024-11-23",
+    "time": "15:00",
+    "round": 12,
+    "home_club_id": "aston-villa",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-brentford",
+    "date": "2024-11-23",
+    "time": "15:00",
+    "round": 12,
+    "home_club_id": "everton",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-wolverhampton-wanderers",
+    "date": "2024-11-23",
+    "time": "15:00",
+    "round": 12,
+    "home_club_id": "fulham",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-tottenham-hotspur",
+    "date": "2024-11-23",
+    "time": "17:30",
+    "round": 12,
+    "home_club_id": "manchester-city",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-liverpool",
+    "date": "2024-11-24",
+    "time": "14:00",
+    "round": 12,
+    "home_club_id": "southampton",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-manchester-united",
+    "date": "2024-11-24",
+    "time": "16:30",
+    "round": 12,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-west-ham-united",
+    "date": "2024-11-25",
+    "time": "20:00",
+    "round": 12,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-southampton",
+    "date": "2024-11-29",
+    "time": "20:00",
+    "round": 13,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-leicester-city",
+    "date": "2024-11-30",
+    "time": "15:00",
+    "round": 13,
+    "home_club_id": "brentford",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-newcastle-united",
+    "date": "2024-11-30",
+    "time": "15:00",
+    "round": 13,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-ipswich-town",
+    "date": "2024-11-30",
+    "time": "15:00",
+    "round": 13,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-afc-bournemouth",
+    "date": "2024-11-30",
+    "time": "15:00",
+    "round": 13,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 3
+      },
+      "ft": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-arsenal",
+    "date": "2024-11-30",
+    "time": "17:30",
+    "round": 13,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 5
+      },
+      "ft": {
+        "home": 2,
+        "away": 5
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-aston-villa",
+    "date": "2024-12-01",
+    "time": "13:30",
+    "round": 13,
+    "home_club_id": "chelsea",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-everton",
+    "date": "2024-12-01",
+    "time": "13:30",
+    "round": 13,
+    "home_club_id": "manchester-united",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-fulham",
+    "date": "2024-12-01",
+    "time": "13:30",
+    "round": 13,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-manchester-city",
+    "date": "2024-12-01",
+    "time": "16:00",
+    "round": 13,
+    "home_club_id": "liverpool",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-crystal-palace",
+    "date": "2024-12-03",
+    "time": "19:30",
+    "round": 14,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-west-ham-united",
+    "date": "2024-12-03",
+    "time": "20:15",
+    "round": 14,
+    "home_club_id": "leicester-city",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-wolverhampton-wanderers",
+    "date": "2024-12-04",
+    "time": "19:30",
+    "round": 14,
+    "home_club_id": "everton",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-nottingham-forest",
+    "date": "2024-12-04",
+    "time": "19:30",
+    "round": 14,
+    "home_club_id": "manchester-city",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-liverpool",
+    "date": "2024-12-04",
+    "time": "19:30",
+    "round": 14,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-chelsea",
+    "date": "2024-12-04",
+    "time": "19:30",
+    "round": 14,
+    "home_club_id": "southampton",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 3
+      },
+      "ft": {
+        "home": 1,
+        "away": 5
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-manchester-united",
+    "date": "2024-12-04",
+    "time": "20:15",
+    "round": 14,
+    "home_club_id": "arsenal",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-brentford",
+    "date": "2024-12-04",
+    "time": "20:15",
+    "round": 14,
+    "home_club_id": "aston-villa",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-brighton-and-hove-albion",
+    "date": "2024-12-05",
+    "time": "19:30",
+    "round": 14,
+    "home_club_id": "fulham",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-tottenham-hotspur",
+    "date": "2024-12-05",
+    "time": "20:15",
+    "round": 14,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-southampton",
+    "date": "2024-12-07",
+    "time": "15:00",
+    "round": 15,
+    "home_club_id": "aston-villa",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-newcastle-united",
+    "date": "2024-12-07",
+    "time": "15:00",
+    "round": 15,
+    "home_club_id": "brentford",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 2
+      },
+      "ft": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-manchester-city",
+    "date": "2024-12-07",
+    "time": "15:00",
+    "round": 15,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-nottingham-forest",
+    "date": "2024-12-07",
+    "time": "17:30",
+    "round": 15,
+    "home_club_id": "manchester-united",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-arsenal",
+    "date": "2024-12-08",
+    "time": "14:00",
+    "round": 15,
+    "home_club_id": "fulham",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-afc-bournemouth",
+    "date": "2024-12-08",
+    "time": "14:00",
+    "round": 15,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-brighton-and-hove-albion",
+    "date": "2024-12-08",
+    "time": "14:00",
+    "round": 15,
+    "home_club_id": "leicester-city",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-chelsea",
+    "date": "2024-12-08",
+    "time": "16:30",
+    "round": 15,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-wolverhampton-wanderers",
+    "date": "2024-12-09",
+    "time": "20:00",
+    "round": 15,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-everton",
+    "date": "2024-12-14",
+    "time": "15:00",
+    "round": 16,
+    "home_club_id": "arsenal",
+    "away_club_id": "everton",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-fulham",
+    "date": "2024-12-14",
+    "time": "15:00",
+    "round": 16,
+    "home_club_id": "liverpool",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-leicester-city",
+    "date": "2024-12-14",
+    "time": "15:00",
+    "round": 16,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-ipswich-town",
+    "date": "2024-12-14",
+    "time": "15:00",
+    "round": 16,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-aston-villa",
+    "date": "2024-12-14",
+    "time": "17:30",
+    "round": 16,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-crystal-palace",
+    "date": "2024-12-15",
+    "time": "14:00",
+    "round": 16,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-manchester-united",
+    "date": "2024-12-15",
+    "time": "16:30",
+    "round": 16,
+    "home_club_id": "manchester-city",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-brentford",
+    "date": "2024-12-15",
+    "time": "19:00",
+    "round": 16,
+    "home_club_id": "chelsea",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-tottenham-hotspur",
+    "date": "2024-12-15",
+    "time": "19:00",
+    "round": 16,
+    "home_club_id": "southampton",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 5
+      },
+      "ft": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-west-ham-united",
+    "date": "2024-12-16",
+    "time": "20:00",
+    "round": 16,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-manchester-city",
+    "date": "2024-12-21",
+    "time": "12:30",
+    "round": 17,
+    "home_club_id": "aston-villa",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-nottingham-forest",
+    "date": "2024-12-21",
+    "time": "15:00",
+    "round": 17,
+    "home_club_id": "brentford",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-newcastle-united",
+    "date": "2024-12-21",
+    "time": "15:00",
+    "round": 17,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 3
+      },
+      "ft": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-brighton-and-hove-albion",
+    "date": "2024-12-21",
+    "time": "15:00",
+    "round": 17,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-arsenal",
+    "date": "2024-12-21",
+    "time": "17:30",
+    "round": 17,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 3
+      },
+      "ft": {
+        "home": 1,
+        "away": 5
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-chelsea",
+    "date": "2024-12-22",
+    "time": "14:00",
+    "round": 17,
+    "home_club_id": "everton",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-southampton",
+    "date": "2024-12-22",
+    "time": "14:00",
+    "round": 17,
+    "home_club_id": "fulham",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-wolverhampton-wanderers",
+    "date": "2024-12-22",
+    "time": "14:00",
+    "round": 17,
+    "home_club_id": "leicester-city",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 3
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-afc-bournemouth",
+    "date": "2024-12-22",
+    "time": "14:00",
+    "round": 17,
+    "home_club_id": "manchester-united",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-liverpool",
+    "date": "2024-12-22",
+    "time": "16:30",
+    "round": 17,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 3
+      },
+      "ft": {
+        "home": 3,
+        "away": 6
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-everton",
+    "date": "2024-12-26",
+    "time": "12:30",
+    "round": 18,
+    "home_club_id": "manchester-city",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-crystal-palace",
+    "date": "2024-12-26",
+    "time": "15:00",
+    "round": 18,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-fulham",
+    "date": "2024-12-26",
+    "time": "15:00",
+    "round": 18,
+    "home_club_id": "chelsea",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-aston-villa",
+    "date": "2024-12-26",
+    "time": "15:00",
+    "round": 18,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-tottenham-hotspur",
+    "date": "2024-12-26",
+    "time": "15:00",
+    "round": 18,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-west-ham-united",
+    "date": "2024-12-26",
+    "time": "15:00",
+    "round": 18,
+    "home_club_id": "southampton",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-manchester-united",
+    "date": "2024-12-26",
+    "time": "17:30",
+    "round": 18,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-leicester-city",
+    "date": "2024-12-26",
+    "time": "20:00",
+    "round": 18,
+    "home_club_id": "liverpool",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-brentford",
+    "date": "2024-12-27",
+    "time": "19:30",
+    "round": 18,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-ipswich-town",
+    "date": "2024-12-27",
+    "time": "20:15",
+    "round": 18,
+    "home_club_id": "arsenal",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-manchester-city",
+    "date": "2024-12-29",
+    "time": "14:30",
+    "round": 19,
+    "home_club_id": "leicester-city",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-southampton",
+    "date": "2024-12-29",
+    "time": "15:00",
+    "round": 19,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-nottingham-forest",
+    "date": "2024-12-29",
+    "time": "15:00",
+    "round": 19,
+    "home_club_id": "everton",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-afc-bournemouth",
+    "date": "2024-12-29",
+    "time": "15:00",
+    "round": 19,
+    "home_club_id": "fulham",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-wolverhampton-wanderers",
+    "date": "2024-12-29",
+    "time": "15:00",
+    "round": 19,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-liverpool",
+    "date": "2024-12-29",
+    "time": "17:15",
+    "round": 19,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 3
+      },
+      "ft": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-brighton-and-hove-albion",
+    "date": "2024-12-30",
+    "time": "19:45",
+    "round": 19,
+    "home_club_id": "aston-villa",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-chelsea",
+    "date": "2024-12-30",
+    "time": "19:45",
+    "round": 19,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-newcastle-united",
+    "date": "2024-12-30",
+    "time": "20:00",
+    "round": 19,
+    "home_club_id": "manchester-united",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-arsenal",
+    "date": "2025-01-01",
+    "time": "17:30",
+    "round": 19,
+    "home_club_id": "brentford",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-newcastle-united",
+    "date": "2025-01-04",
+    "time": "12:30",
+    "round": 20,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-brentford",
+    "date": "2025-01-04",
+    "time": "15:00",
+    "round": 20,
+    "home_club_id": "southampton",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 5
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-chelsea",
+    "date": "2025-01-04",
+    "time": "15:00",
+    "round": 20,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-everton",
+    "date": "2025-01-04",
+    "time": "15:00",
+    "round": 20,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-leicester-city",
+    "date": "2025-01-04",
+    "time": "15:00",
+    "round": 20,
+    "home_club_id": "aston-villa",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-west-ham-united",
+    "date": "2025-01-04",
+    "time": "15:00",
+    "round": 20,
+    "home_club_id": "manchester-city",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-arsenal",
+    "date": "2025-01-04",
+    "time": "17:30",
+    "round": 20,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-ipswich-town",
+    "date": "2025-01-05",
+    "time": "14:00",
+    "round": 20,
+    "home_club_id": "fulham",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-manchester-united",
+    "date": "2025-01-05",
+    "time": "16:30",
+    "round": 20,
+    "home_club_id": "liverpool",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-nottingham-forest",
+    "date": "2025-01-06",
+    "time": "20:00",
+    "round": 20,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-fulham",
+    "date": "2025-01-14",
+    "time": "19:30",
+    "round": 21,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-manchester-city",
+    "date": "2025-01-14",
+    "time": "19:30",
+    "round": 21,
+    "home_club_id": "brentford",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-afc-bournemouth",
+    "date": "2025-01-14",
+    "time": "19:30",
+    "round": 21,
+    "home_club_id": "chelsea",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-liverpool",
+    "date": "2025-01-14",
+    "time": "20:00",
+    "round": 21,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-aston-villa",
+    "date": "2025-01-15",
+    "time": "19:30",
+    "round": 21,
+    "home_club_id": "everton",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-crystal-palace",
+    "date": "2025-01-15",
+    "time": "19:30",
+    "round": 21,
+    "home_club_id": "leicester-city",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-wolverhampton-wanderers",
+    "date": "2025-01-15",
+    "time": "19:30",
+    "round": 21,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-tottenham-hotspur",
+    "date": "2025-01-15",
+    "time": "20:00",
+    "round": 21,
+    "home_club_id": "arsenal",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-brighton-and-hove-albion",
+    "date": "2025-01-16",
+    "time": "19:30",
+    "round": 21,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-southampton",
+    "date": "2025-01-16",
+    "time": "20:00",
+    "round": 21,
+    "home_club_id": "manchester-united",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-afc-bournemouth",
+    "date": "2025-01-18",
+    "time": "12:30",
+    "round": 22,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-crystal-palace",
+    "date": "2025-01-18",
+    "time": "15:00",
+    "round": 22,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-fulham",
+    "date": "2025-01-18",
+    "time": "15:00",
+    "round": 22,
+    "home_club_id": "leicester-city",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-liverpool",
+    "date": "2025-01-18",
+    "time": "15:00",
+    "round": 22,
+    "home_club_id": "brentford",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-aston-villa",
+    "date": "2025-01-18",
+    "time": "17:30",
+    "round": 22,
+    "home_club_id": "arsenal",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-brighton-and-hove-albion",
+    "date": "2025-01-19",
+    "time": "14:00",
+    "round": 22,
+    "home_club_id": "manchester-united",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-southampton",
+    "date": "2025-01-19",
+    "time": "14:00",
+    "round": 22,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-tottenham-hotspur",
+    "date": "2025-01-19",
+    "time": "14:00",
+    "round": 22,
+    "home_club_id": "everton",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-manchester-city",
+    "date": "2025-01-19",
+    "time": "16:30",
+    "round": 22,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 3
+      },
+      "ft": {
+        "home": 0,
+        "away": 6
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-wolverhampton-wanderers",
+    "date": "2025-01-20",
+    "time": "20:00",
+    "round": 22,
+    "home_club_id": "chelsea",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-ipswich-town",
+    "date": "2025-01-25",
+    "time": "15:00",
+    "round": 23,
+    "home_club_id": "liverpool",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-arsenal",
+    "date": "2025-01-25",
+    "time": "15:00",
+    "round": 23,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-everton",
+    "date": "2025-01-25",
+    "time": "15:00",
+    "round": 23,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-newcastle-united",
+    "date": "2025-01-25",
+    "time": "15:00",
+    "round": 23,
+    "home_club_id": "southampton",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-nottingham-forest",
+    "date": "2025-01-25",
+    "time": "15:00",
+    "round": 23,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-chelsea",
+    "date": "2025-01-25",
+    "time": "17:30",
+    "round": 23,
+    "home_club_id": "manchester-city",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-brentford",
+    "date": "2025-01-26",
+    "time": "14:00",
+    "round": 23,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-leicester-city",
+    "date": "2025-01-26",
+    "time": "14:00",
+    "round": 23,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-west-ham-united",
+    "date": "2025-01-26",
+    "time": "16:30",
+    "round": 23,
+    "home_club_id": "aston-villa",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-manchester-united",
+    "date": "2025-01-26",
+    "time": "19:00",
+    "round": 23,
+    "home_club_id": "fulham",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-brighton-and-hove-albion",
+    "date": "2025-02-01",
+    "time": "12:30",
+    "round": 24,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-fulham",
+    "date": "2025-02-01",
+    "time": "15:00",
+    "round": 24,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-leicester-city",
+    "date": "2025-02-01",
+    "time": "15:00",
+    "round": 24,
+    "home_club_id": "everton",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-liverpool",
+    "date": "2025-02-01",
+    "time": "15:00",
+    "round": 24,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-southampton",
+    "date": "2025-02-01",
+    "time": "15:00",
+    "round": 24,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-aston-villa",
+    "date": "2025-02-01",
+    "time": "17:30",
+    "round": 24,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-crystal-palace",
+    "date": "2025-02-02",
+    "time": "14:00",
+    "round": 24,
+    "home_club_id": "manchester-united",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-tottenham-hotspur",
+    "date": "2025-02-02",
+    "time": "14:00",
+    "round": 24,
+    "home_club_id": "brentford",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-manchester-city",
+    "date": "2025-02-02",
+    "time": "16:30",
+    "round": 24,
+    "home_club_id": "arsenal",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-west-ham-united",
+    "date": "2025-02-03",
+    "time": "20:00",
+    "round": 24,
+    "home_club_id": "chelsea",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-liverpool",
+    "date": "2025-02-12",
+    "time": "19:30",
+    "round": 15,
+    "home_club_id": "everton",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-chelsea",
+    "date": "2025-02-14",
+    "time": "20:00",
+    "round": 25,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-arsenal",
+    "date": "2025-02-15",
+    "time": "12:30",
+    "round": 25,
+    "home_club_id": "leicester-city",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-afc-bournemouth",
+    "date": "2025-02-15",
+    "time": "15:00",
+    "round": 25,
+    "home_club_id": "southampton",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-brentford",
+    "date": "2025-02-15",
+    "time": "15:00",
+    "round": 25,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-ipswich-town",
+    "date": "2025-02-15",
+    "time": "15:00",
+    "round": 25,
+    "home_club_id": "aston-villa",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-newcastle-united",
+    "date": "2025-02-15",
+    "time": "15:00",
+    "round": 25,
+    "home_club_id": "manchester-city",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-nottingham-forest",
+    "date": "2025-02-15",
+    "time": "15:00",
+    "round": 25,
+    "home_club_id": "fulham",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-everton",
+    "date": "2025-02-15",
+    "time": "17:30",
+    "round": 25,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-wolverhampton-wanderers",
+    "date": "2025-02-16",
+    "time": "14:00",
+    "round": 25,
+    "home_club_id": "liverpool",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-manchester-united",
+    "date": "2025-02-16",
+    "time": "16:30",
+    "round": 25,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-liverpool",
+    "date": "2025-02-19",
+    "time": "19:30",
+    "round": 29,
+    "home_club_id": "aston-villa",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-brentford",
+    "date": "2025-02-21",
+    "time": "20:00",
+    "round": 26,
+    "home_club_id": "leicester-city",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 3
+      },
+      "ft": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-manchester-united",
+    "date": "2025-02-22",
+    "time": "12:30",
+    "round": 26,
+    "home_club_id": "everton",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-tottenham-hotspur",
+    "date": "2025-02-22",
+    "time": "15:00",
+    "round": 26,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-crystal-palace",
+    "date": "2025-02-22",
+    "time": "15:00",
+    "round": 26,
+    "home_club_id": "fulham",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-west-ham-united",
+    "date": "2025-02-22",
+    "time": "15:00",
+    "round": 26,
+    "home_club_id": "arsenal",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-wolverhampton-wanderers",
+    "date": "2025-02-22",
+    "time": "15:00",
+    "round": 26,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-brighton-and-hove-albion",
+    "date": "2025-02-22",
+    "time": "15:00",
+    "round": 26,
+    "home_club_id": "southampton",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-chelsea",
+    "date": "2025-02-22",
+    "time": "17:30",
+    "round": 26,
+    "home_club_id": "aston-villa",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-nottingham-forest",
+    "date": "2025-02-23",
+    "time": "14:00",
+    "round": 26,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 4,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-liverpool",
+    "date": "2025-02-23",
+    "time": "16:30",
+    "round": 26,
+    "home_club_id": "manchester-city",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-afc-bournemouth",
+    "date": "2025-02-25",
+    "time": "19:30",
+    "round": 27,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-aston-villa",
+    "date": "2025-02-25",
+    "time": "19:30",
+    "round": 27,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-fulham",
+    "date": "2025-02-25",
+    "time": "19:30",
+    "round": 27,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-southampton",
+    "date": "2025-02-25",
+    "time": "20:15",
+    "round": 27,
+    "home_club_id": "chelsea",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-arsenal",
+    "date": "2025-02-26",
+    "time": "19:30",
+    "round": 27,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-everton",
+    "date": "2025-02-26",
+    "time": "19:30",
+    "round": 27,
+    "home_club_id": "brentford",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-manchester-city",
+    "date": "2025-02-26",
+    "time": "19:30",
+    "round": 27,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-ipswich-town",
+    "date": "2025-02-26",
+    "time": "19:30",
+    "round": 27,
+    "home_club_id": "manchester-united",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 2
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-newcastle-united",
+    "date": "2025-02-26",
+    "time": "20:15",
+    "round": 27,
+    "home_club_id": "liverpool",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-leicester-city",
+    "date": "2025-02-27",
+    "time": "20:00",
+    "round": 27,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-manchester-city",
+    "date": "2025-03-08",
+    "time": "12:30",
+    "round": 28,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-fulham",
+    "date": "2025-03-08",
+    "time": "15:00",
+    "round": 28,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-ipswich-town",
+    "date": "2025-03-08",
+    "time": "15:00",
+    "round": 28,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-southampton",
+    "date": "2025-03-08",
+    "time": "15:00",
+    "round": 28,
+    "home_club_id": "liverpool",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-aston-villa",
+    "date": "2025-03-08",
+    "time": "17:30",
+    "round": 28,
+    "home_club_id": "brentford",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-everton",
+    "date": "2025-03-08",
+    "time": "20:00",
+    "round": 28,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-afc-bournemouth",
+    "date": "2025-03-09",
+    "time": "14:00",
+    "round": 28,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-leicester-city",
+    "date": "2025-03-09",
+    "time": "14:00",
+    "round": 28,
+    "home_club_id": "chelsea",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-arsenal",
+    "date": "2025-03-09",
+    "time": "16:30",
+    "round": 28,
+    "home_club_id": "manchester-united",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-newcastle-united",
+    "date": "2025-03-10",
+    "time": "20:00",
+    "round": 28,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-west-ham-united",
+    "date": "2025-03-15",
+    "time": "15:00",
+    "round": 29,
+    "home_club_id": "everton",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-nottingham-forest",
+    "date": "2025-03-15",
+    "time": "15:00",
+    "round": 29,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 3
+      },
+      "ft": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-brighton-and-hove-albion",
+    "date": "2025-03-15",
+    "time": "15:00",
+    "round": 29,
+    "home_club_id": "manchester-city",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-wolverhampton-wanderers",
+    "date": "2025-03-15",
+    "time": "15:00",
+    "round": 29,
+    "home_club_id": "southampton",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-brentford",
+    "date": "2025-03-15",
+    "time": "17:30",
+    "round": 29,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-chelsea",
+    "date": "2025-03-16",
+    "time": "13:30",
+    "round": 29,
+    "home_club_id": "arsenal",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-tottenham-hotspur",
+    "date": "2025-03-16",
+    "time": "13:30",
+    "round": 29,
+    "home_club_id": "fulham",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-manchester-united",
+    "date": "2025-03-16",
+    "time": "19:00",
+    "round": 29,
+    "home_club_id": "leicester-city",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-fulham",
+    "date": "2025-04-01",
+    "time": "19:45",
+    "round": 30,
+    "home_club_id": "arsenal",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-west-ham-united",
+    "date": "2025-04-01",
+    "time": "19:45",
+    "round": 30,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-manchester-united",
+    "date": "2025-04-01",
+    "time": "20:00",
+    "round": 30,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-ipswich-town",
+    "date": "2025-04-02",
+    "time": "19:45",
+    "round": 30,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-aston-villa",
+    "date": "2025-04-02",
+    "time": "19:45",
+    "round": 30,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-leicester-city",
+    "date": "2025-04-02",
+    "time": "19:45",
+    "round": 30,
+    "home_club_id": "manchester-city",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-brentford",
+    "date": "2025-04-02",
+    "time": "19:45",
+    "round": 30,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-crystal-palace",
+    "date": "2025-04-02",
+    "time": "19:45",
+    "round": 30,
+    "home_club_id": "southampton",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-everton",
+    "date": "2025-04-02",
+    "time": "20:00",
+    "round": 30,
+    "home_club_id": "liverpool",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-tottenham-hotspur",
+    "date": "2025-04-03",
+    "time": "20:00",
+    "round": 30,
+    "home_club_id": "chelsea",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-arsenal",
+    "date": "2025-04-05",
+    "time": "12:30",
+    "round": 31,
+    "home_club_id": "everton",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-brighton-and-hove-albion",
+    "date": "2025-04-05",
+    "time": "15:00",
+    "round": 31,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-wolverhampton-wanderers",
+    "date": "2025-04-05",
+    "time": "15:00",
+    "round": 31,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-afc-bournemouth",
+    "date": "2025-04-05",
+    "time": "15:00",
+    "round": 31,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-nottingham-forest",
+    "date": "2025-04-05",
+    "time": "17:30",
+    "round": 31,
+    "home_club_id": "aston-villa",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-chelsea",
+    "date": "2025-04-06",
+    "time": "14:00",
+    "round": 31,
+    "home_club_id": "brentford",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-liverpool",
+    "date": "2025-04-06",
+    "time": "14:00",
+    "round": 31,
+    "home_club_id": "fulham",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 1
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-southampton",
+    "date": "2025-04-06",
+    "time": "14:00",
+    "round": 31,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-manchester-city",
+    "date": "2025-04-06",
+    "time": "16:30",
+    "round": 31,
+    "home_club_id": "manchester-united",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-newcastle-united",
+    "date": "2025-04-07",
+    "time": "20:00",
+    "round": 31,
+    "home_club_id": "leicester-city",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 3
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-crystal-palace",
+    "date": "2025-04-12",
+    "time": "12:30",
+    "round": 32,
+    "home_club_id": "manchester-city",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 2
+      },
+      "ft": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-leicester-city",
+    "date": "2025-04-12",
+    "time": "15:00",
+    "round": 32,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-everton",
+    "date": "2025-04-12",
+    "time": "15:00",
+    "round": 32,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-aston-villa",
+    "date": "2025-04-12",
+    "time": "15:00",
+    "round": 32,
+    "home_club_id": "southampton",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-brentford",
+    "date": "2025-04-12",
+    "time": "17:30",
+    "round": 32,
+    "home_club_id": "arsenal",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-ipswich-town",
+    "date": "2025-04-13",
+    "time": "14:00",
+    "round": 32,
+    "home_club_id": "chelsea",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-west-ham-united",
+    "date": "2025-04-13",
+    "time": "14:00",
+    "round": 32,
+    "home_club_id": "liverpool",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-tottenham-hotspur",
+    "date": "2025-04-13",
+    "time": "14:00",
+    "round": 32,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-manchester-united",
+    "date": "2025-04-13",
+    "time": "16:30",
+    "round": 32,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-fulham",
+    "date": "2025-04-14",
+    "time": "20:00",
+    "round": 32,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-crystal-palace",
+    "date": "2025-04-16",
+    "time": "19:30",
+    "round": 29,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 4,
+        "away": 0
+      },
+      "ft": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-brighton-and-hove-albion",
+    "date": "2025-04-19",
+    "time": "15:00",
+    "round": 33,
+    "home_club_id": "brentford",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-afc-bournemouth",
+    "date": "2025-04-19",
+    "time": "15:00",
+    "round": 33,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-manchester-city",
+    "date": "2025-04-19",
+    "time": "15:00",
+    "round": 33,
+    "home_club_id": "everton",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-southampton",
+    "date": "2025-04-19",
+    "time": "15:00",
+    "round": 33,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-newcastle-united",
+    "date": "2025-04-19",
+    "time": "17:30",
+    "round": 33,
+    "home_club_id": "aston-villa",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-chelsea",
+    "date": "2025-04-20",
+    "time": "14:00",
+    "round": 33,
+    "home_club_id": "fulham",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-arsenal",
+    "date": "2025-04-20",
+    "time": "14:00",
+    "round": 33,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-wolverhampton-wanderers",
+    "date": "2025-04-20",
+    "time": "14:00",
+    "round": 33,
+    "home_club_id": "manchester-united",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-liverpool",
+    "date": "2025-04-20",
+    "time": "16:30",
+    "round": 33,
+    "home_club_id": "leicester-city",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-nottingham-forest",
+    "date": "2025-04-21",
+    "time": "20:00",
+    "round": 33,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 2
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-aston-villa",
+    "date": "2025-04-22",
+    "time": "20:00",
+    "round": 34,
+    "home_club_id": "manchester-city",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-crystal-palace",
+    "date": "2025-04-23",
+    "time": "20:00",
+    "round": 34,
+    "home_club_id": "arsenal",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-everton",
+    "date": "2025-04-26",
+    "time": "12:30",
+    "round": 34,
+    "home_club_id": "chelsea",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-west-ham-united",
+    "date": "2025-04-26",
+    "time": "15:00",
+    "round": 34,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-ipswich-town",
+    "date": "2025-04-26",
+    "time": "15:00",
+    "round": 34,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-fulham",
+    "date": "2025-04-26",
+    "time": "15:00",
+    "round": 34,
+    "home_club_id": "southampton",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-leicester-city",
+    "date": "2025-04-26",
+    "time": "15:00",
+    "round": 34,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-manchester-united",
+    "date": "2025-04-27",
+    "time": "14:00",
+    "round": 34,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-tottenham-hotspur",
+    "date": "2025-04-27",
+    "time": "16:30",
+    "round": 34,
+    "home_club_id": "liverpool",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 3,
+        "away": 1
+      },
+      "ft": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-brentford",
+    "date": "2025-05-01",
+    "time": "19:30",
+    "round": 34,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-wolverhampton-wanderers",
+    "date": "2025-05-02",
+    "time": "20:00",
+    "round": 35,
+    "home_club_id": "manchester-city",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-fulham",
+    "date": "2025-05-03",
+    "time": "12:30",
+    "round": 35,
+    "home_club_id": "aston-villa",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-ipswich-town",
+    "date": "2025-05-03",
+    "time": "15:00",
+    "round": 35,
+    "home_club_id": "everton",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-southampton",
+    "date": "2025-05-03",
+    "time": "15:00",
+    "round": 35,
+    "home_club_id": "leicester-city",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-afc-bournemouth",
+    "date": "2025-05-03",
+    "time": "17:30",
+    "round": 35,
+    "home_club_id": "arsenal",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-manchester-united",
+    "date": "2025-05-04",
+    "time": "14:00",
+    "round": 35,
+    "home_club_id": "brentford",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-newcastle-united",
+    "date": "2025-05-04",
+    "time": "14:00",
+    "round": 35,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-tottenham-hotspur",
+    "date": "2025-05-04",
+    "time": "14:00",
+    "round": 35,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-liverpool",
+    "date": "2025-05-04",
+    "time": "16:30",
+    "round": 35,
+    "home_club_id": "chelsea",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-nottingham-forest",
+    "date": "2025-05-05",
+    "time": "20:00",
+    "round": 35,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-everton",
+    "date": "2025-05-10",
+    "time": "15:00",
+    "round": 36,
+    "home_club_id": "fulham",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-brentford",
+    "date": "2025-05-10",
+    "time": "15:00",
+    "round": 36,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-manchester-city",
+    "date": "2025-05-10",
+    "time": "15:00",
+    "round": 36,
+    "home_club_id": "southampton",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": null,
+      "ft": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-brighton-and-hove-albion",
+    "date": "2025-05-10",
+    "time": "15:00",
+    "round": 36,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-aston-villa",
+    "date": "2025-05-10",
+    "time": "17:30",
+    "round": 36,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-chelsea",
+    "date": "2025-05-11",
+    "time": "12:00",
+    "round": 36,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-west-ham-united",
+    "date": "2025-05-11",
+    "time": "14:15",
+    "round": 36,
+    "home_club_id": "manchester-united",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-leicester-city",
+    "date": "2025-05-11",
+    "time": "14:15",
+    "round": 36,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-crystal-palace",
+    "date": "2025-05-11",
+    "time": "14:15",
+    "round": 36,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-arsenal",
+    "date": "2025-05-11",
+    "time": "16:30",
+    "round": 36,
+    "home_club_id": "liverpool",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-aston-villa-vs-tottenham-hotspur",
+    "date": "2025-05-16",
+    "time": "19:30",
+    "round": 37,
+    "home_club_id": "aston-villa",
+    "away_club_id": "tottenham-hotspur",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-chelsea-vs-manchester-united",
+    "date": "2025-05-16",
+    "time": "20:15",
+    "round": 37,
+    "home_club_id": "chelsea",
+    "away_club_id": "manchester-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-everton-vs-southampton",
+    "date": "2025-05-18",
+    "time": "12:00",
+    "round": 37,
+    "home_club_id": "everton",
+    "away_club_id": "southampton",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-west-ham-united-vs-nottingham-forest",
+    "date": "2025-05-18",
+    "time": "14:15",
+    "round": 37,
+    "home_club_id": "west-ham-united",
+    "away_club_id": "nottingham-forest",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brentford-vs-fulham",
+    "date": "2025-05-18",
+    "time": "15:00",
+    "round": 37,
+    "home_club_id": "brentford",
+    "away_club_id": "fulham",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-leicester-city-vs-ipswich-town",
+    "date": "2025-05-18",
+    "time": "15:00",
+    "round": 37,
+    "home_club_id": "leicester-city",
+    "away_club_id": "ipswich-town",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-arsenal-vs-newcastle-united",
+    "date": "2025-05-18",
+    "time": "16:30",
+    "round": 37,
+    "home_club_id": "arsenal",
+    "away_club_id": "newcastle-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-brighton-and-hove-albion-vs-liverpool",
+    "date": "2025-05-19",
+    "time": "20:00",
+    "round": 37,
+    "home_club_id": "brighton-and-hove-albion",
+    "away_club_id": "liverpool",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 2
+      },
+      "ft": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-crystal-palace-vs-wolverhampton-wanderers",
+    "date": "2025-05-20",
+    "time": "20:00",
+    "round": 37,
+    "home_club_id": "crystal-palace",
+    "away_club_id": "wolverhampton-wanderers",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 1
+      },
+      "ft": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-city-vs-afc-bournemouth",
+    "date": "2025-05-20",
+    "time": "20:00",
+    "round": 37,
+    "home_club_id": "manchester-city",
+    "away_club_id": "afc-bournemouth",
+    "score": {
+      "ht": {
+        "home": 2,
+        "away": 0
+      },
+      "ft": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-afc-bournemouth-vs-leicester-city",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "afc-bournemouth",
+    "away_club_id": "leicester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-fulham-vs-manchester-city",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "fulham",
+    "away_club_id": "manchester-city",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-ipswich-town-vs-west-ham-united",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "ipswich-town",
+    "away_club_id": "west-ham-united",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-liverpool-vs-crystal-palace",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "liverpool",
+    "away_club_id": "crystal-palace",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-manchester-united-vs-aston-villa",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "manchester-united",
+    "away_club_id": "aston-villa",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-newcastle-united-vs-everton",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "newcastle-united",
+    "away_club_id": "everton",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-nottingham-forest-vs-chelsea",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "nottingham-forest",
+    "away_club_id": "chelsea",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 0
+      },
+      "ft": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-southampton-vs-arsenal",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "southampton",
+    "away_club_id": "arsenal",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-tottenham-hotspur-vs-brighton-and-hove-albion",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "tottenham-hotspur",
+    "away_club_id": "brighton-and-hove-albion",
+    "score": {
+      "ht": {
+        "home": 1,
+        "away": 0
+      },
+      "ft": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  },
+  {
+    "id": "premier-league-2024-25-wolverhampton-wanderers-vs-brentford",
+    "date": "2025-05-25",
+    "time": "16:00",
+    "round": 38,
+    "home_club_id": "wolverhampton-wanderers",
+    "away_club_id": "brentford",
+    "score": {
+      "ht": {
+        "home": 0,
+        "away": 1
+      },
+      "ft": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "league_id": "premier-league",
+    "season": "2024-25"
+  }
+]

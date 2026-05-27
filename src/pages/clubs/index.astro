@@ -32,7 +32,7 @@ const letters = [...groups.keys()].sort();
     placeholder="Search clubs…"
     aria-label="Search clubs"
     autocomplete="off"
-    class="mt-5 w-full max-w-md rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-pitch-500 focus:outline-none focus:ring-1 focus:ring-pitch-500"
+    class="mt-5 w-full max-w-md rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-pitch-500 focus:outline-none focus:ring-1 focus:ring-pitch-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
   />
 
   <nav class="mt-4 flex flex-wrap gap-1 text-sm" aria-label="Jump to letter">
@@ -40,7 +40,7 @@ const letters = [...groups.keys()].sort();
       letters.map((letter) => (
         <a
           href={`#letter-${letter}`}
-          class="rounded px-2 py-1 font-medium text-slate-500 hover:bg-pitch-50 hover:text-pitch-700"
+          class="rounded px-2 py-1 font-medium text-slate-500 hover:bg-pitch-50 hover:text-pitch-700 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-pitch-400"
         >
           {letter}
         </a>

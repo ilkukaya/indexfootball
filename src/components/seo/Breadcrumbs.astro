@@ -1,4 +1,7 @@
 ---
+import JsonLd from "./JsonLd.astro";
+import { breadcrumbSchema } from "../../lib/seo.ts";
+
 interface Crumb {
   label: string;
   href?: string;
@@ -9,24 +12,28 @@ interface Props {
 }
 
 const { items } = Astro.props;
+const schema = breadcrumbSchema(items, Astro.site);
 ---
 
-<nav aria-label="Breadcrumb" class="text-sm text-slate-500">
+<JsonLd schema={schema} />
+
+
+<nav aria-label="Breadcrumb" class="text-sm text-slate-500 dark:text-slate-400">
   <ol class="flex flex-wrap items-center gap-1">
     {
       items.map((item, i) => (
         <li class="flex items-center gap-1">
           {item.href && i < items.length - 1 ? (
-            <a href={item.href} class="hover:text-pitch-700 hover:underline">
+            <a href={item.href} class="hover:text-pitch-700 hover:underline dark:hover:text-pitch-400">
               {item.label}
             </a>
           ) : (
-            <span class="text-slate-700" aria-current="page">
+            <span class="text-slate-700 dark:text-slate-200" aria-current="page">
               {item.label}
             </span>
           )}
           {i < items.length - 1 && (
-            <span class="text-slate-300" aria-hidden="true">
+            <span class="text-slate-300 dark:text-slate-600" aria-hidden="true">
               /
             </span>
           )}

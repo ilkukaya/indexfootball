@@ -3,6 +3,7 @@ import type { GetStaticPaths } from "astro";
 import type { Match } from "../../lib/types.ts";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumbs from "../../components/seo/Breadcrumbs.astro";
+import JsonLd from "../../components/seo/JsonLd.astro";
 import Logo from "../../components/ui/Logo.astro";
 import { getMatches, getClub, getLeague } from "../../lib/data.ts";
 import {
@@ -11,7 +12,7 @@ import {
   formatHalfTime,
   formatScore,
 } from "../../lib/format.ts";
-import { matchMeta } from "../../lib/seo.ts";
+import { matchMeta, matchSchema } from "../../lib/seo.ts";
 
 export const getStaticPaths = (() => {
   return getMatches().map((match) => ({
@@ -37,7 +38,8 @@ const ft = match.score.ft;
 const ht = formatHalfTime(match);
 ---
 
-<BaseLayout title={meta.title} description={meta.description}>
+<BaseLayout title={meta.title} description={meta.description} searchable={false}>
+  <JsonLd schema={matchSchema(match, home, away, league, Astro.site)} />
   <Breadcrumbs
     items={[
       { label: "Home", href: "/" },
@@ -57,7 +59,7 @@ const ht = formatHalfTime(match);
     {match.time && <span> · {match.time}</span>}
   </p>
 
-  <div class="mt-4 rounded-2xl border border-slate-200 p-6">
+  <div class="mt-4 rounded-2xl border border-slate-200 p-6 dark:border-slate-800">
     <div class="grid grid-cols-[1fr_auto_1fr] items-center gap-4">
       <a
         href={`/clubs/${home.slug}/`}
@@ -86,7 +88,7 @@ const ht = formatHalfTime(match);
   </div>
 
   <dl class="mt-6 grid gap-3 text-sm sm:grid-cols-2">
-    <div class="rounded-lg border border-slate-200 px-4 py-3">
+    <div class="rounded-lg border border-slate-200 px-4 py-3 dark:border-slate-800">
       <dt class="text-xs uppercase tracking-wide text-slate-400">Competition</dt>
       <dd class="mt-0.5 font-medium">
         <a href={`/leagues/${league.slug}/`} class="hover:text-pitch-700">
@@ -95,7 +97,7 @@ const ht = formatHalfTime(match);
         · {seasonLabel}
       </dd>
     </div>
-    <div class="rounded-lg border border-slate-200 px-4 py-3">
+    <div class="rounded-lg border border-slate-200 px-4 py-3 dark:border-slate-800">
       <dt class="text-xs uppercase tracking-wide text-slate-400">Date</dt>
       <dd class="mt-0.5 font-medium">
         {match.date ? formatDate(match.date, { weekday: true, long: true }) : "TBD"}

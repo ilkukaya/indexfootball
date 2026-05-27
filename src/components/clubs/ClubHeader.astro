@@ -42,7 +42,7 @@ if (club.stadium) pills.push(club.stadium);
       <div class="mt-2 flex flex-wrap gap-1.5">
         {
           pills.map((pill) => (
-            <span class="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-600">
+            <span class="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-300">
               {pill}
             </span>
           ))
@@ -51,7 +51,7 @@ if (club.stadium) pills.push(club.stadium);
           leagues.map((league) => (
             <a
               href={`/leagues/${league.slug}/`}
-              class="rounded-full bg-pitch-50 px-2.5 py-0.5 text-xs font-medium text-pitch-700 hover:bg-pitch-100"
+              class="rounded-full bg-pitch-50 px-2.5 py-0.5 text-xs font-medium text-pitch-700 hover:bg-pitch-100 dark:bg-pitch-950 dark:text-pitch-400 dark:hover:bg-pitch-900"
             >
               {league.name}
             </a>
@@ -61,7 +61,7 @@ if (club.stadium) pills.push(club.stadium);
     </div>
   </div>
 
-  <nav class="mt-5 border-b border-slate-200" aria-label="Club sections">
+  <nav class="mt-5 border-b border-slate-200 dark:border-slate-800" aria-label="Club sections">
     <ul class="flex gap-1">
       {
         tabs.map((tab) => (
@@ -72,8 +72,8 @@ if (club.stadium) pills.push(club.stadium);
               class:list={[
                 "inline-block border-b-2 px-3 py-2 text-sm font-medium transition-colors",
                 active === tab.id
-                  ? "border-pitch-600 text-pitch-700"
-                  : "border-transparent text-slate-500 hover:text-slate-800",
+                  ? "border-pitch-600 text-pitch-700 dark:text-pitch-400"
+                  : "border-transparent text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200",
               ]}
             >
               {tab.label}

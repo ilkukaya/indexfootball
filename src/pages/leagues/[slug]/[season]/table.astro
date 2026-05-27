@@ -3,14 +3,16 @@ import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import SeasonHeader from "../../../../components/leagues/SeasonHeader.astro";
 import StandingsTable from "../../../../components/tables/StandingsTable.astro";
+import JsonLd from "../../../../components/seo/JsonLd.astro";
 import {
   getLeagues,
   getLeague,
   getClubsByLeague,
   getMatchesByLeagueSeason,
 } from "../../../../lib/data.ts";
+import { computeStandings } from "../../../../lib/standings.ts";
 import { displaySeason } from "../../../../lib/format.ts";
-import { leagueSeasonMeta } from "../../../../lib/seo.ts";
+import { leagueSeasonMeta, leagueSeasonSchema } from "../../../../lib/seo.ts";
 
 export const getStaticPaths = (() => {
   return getLeagues().flatMap((league) =>
@@ -26,6 +28,7 @@ if (!league) return Astro.redirect("/leagues/");
 
 const clubs = getClubsByLeague(league.id);
 const matches = getMatchesByLeagueSeason(league.id, season);
+const standings = computeStandings(matches, clubs);
 
 const base = leagueSeasonMeta(league, season, clubs.length, matches.length);
 const meta = {
@@ -35,6 +38,7 @@ const meta = {
 ---
 
 <BaseLayout title={meta.title} description={meta.description}>
+  <JsonLd schema={leagueSeasonSchema(league, season, standings, Astro.site)} />
   <SeasonHeader league={league} season={season} active="table" />
 
   <h2 class="mt-6 text-lg font-semibold">Standings</h2>

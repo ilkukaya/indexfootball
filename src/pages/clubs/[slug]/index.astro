@@ -3,13 +3,14 @@ import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import ClubHeader from "../../../components/clubs/ClubHeader.astro";
 import MatchCard from "../../../components/cards/MatchCard.astro";
+import JsonLd from "../../../components/seo/JsonLd.astro";
 import {
   getClubs,
   getClub,
   getLeague,
   getMatchesByClub,
 } from "../../../lib/data.ts";
-import { clubMeta } from "../../../lib/seo.ts";
+import { clubMeta, clubSchema } from "../../../lib/seo.ts";
 
 export const getStaticPaths = (() => {
   return getClubs().map((club) => ({ params: { slug: club.slug } }));
@@ -39,6 +40,7 @@ const meta = clubMeta(club, leagues);
 ---
 
 <BaseLayout title={meta.title} description={meta.description}>
+  <JsonLd schema={clubSchema(club, leagues, Astro.site)} />
   <ClubHeader club={club} leagues={leagues} active="overview" />
 
   <div class="mt-6 grid gap-8 lg:grid-cols-2">
@@ -68,7 +70,7 @@ const meta = clubMeta(club, leagues);
 
     <section>
       <h2 class="text-lg font-semibold">Squad</h2>
-      <p class="mt-3 rounded-lg border border-dashed border-slate-300 p-4 text-sm text-slate-500">
+      <p class="mt-3 rounded-lg border border-dashed border-slate-300 p-4 text-sm text-slate-500 dark:border-slate-700 dark:text-slate-400">
         Squad data isn&rsquo;t available from our open-data sources yet. See the
         <a href={`/clubs/${club.slug}/squad`} class="text-pitch-700 hover:underline">
           squad page

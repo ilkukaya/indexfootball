@@ -6,11 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://indexfootball.com',
-  integrations: [
-    sitemap({
-      filter: (page) => !page.includes("/debug"),
-    }),
-  ],
+  integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],
   },

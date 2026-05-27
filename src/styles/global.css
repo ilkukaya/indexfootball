@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Class-based dark mode (toggled via .dark on <html>). */
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* IndexFootball brand theme (Tailwind v4 CSS-first config). */
 @theme {
   --color-pitch-50: #f0fdf4;
@@ -24,5 +27,5 @@ html {
 }
 
 body {
-  @apply bg-white text-slate-900 antialiased;
+  @apply antialiased;
 }

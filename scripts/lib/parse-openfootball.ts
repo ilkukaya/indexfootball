@@ -51,14 +51,24 @@ const MONTHS = [
   "Dec",
 ];
 
+// Dates appear as "Fri Aug 16 2024" (england) or "Fri Aug/16 2024" (others);
+// kickoff times as "20:00" or "20.45". Regexes accept both conventions.
 const TITLE_RE = /^=\s+(.+?)\s+(\d{4})\/(\d{2})\s*$/;
 const ROUND_RE =
   /^[▪»>•\-\s]*(?:Matchday|Round|Week|Spieltag|Jornada|Giornata)\s+(\d+)/i;
+// Dates may be bare ("Fri Aug 16 2024") or bracketed ("[Fri Aug/13]").
 const DATE_RE =
-  /^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+([A-Z][a-z]{2})\s+(\d{1,2})(?:\s+(\d{4}))?$/;
+  /^\[?(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+([A-Z][a-z]{2})[\s/](\d{1,2})(?:\s+(\d{4}))?\]?$/;
+// New layout (recent seasons): "Home v Away  FT (HT)" — score at the end.
 const MATCH_RE =
-  /^(?:(\d{1,2}:\d{2})\s+)?(.+?)\s+v\s+(.+?)\s+(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\))?\s*$/;
-const FIXTURE_RE = /^(?:(\d{1,2}:\d{2})\s+)?(.+?)\s+v\s+(.+?)\s*$/;
+  /^(?:(\d{1,2}[:.]\d{2})\s+)?(.+?)\s+v\s+(.+?)\s+(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\))?\s*$/;
+const FIXTURE_RE = /^(?:(\d{1,2}[:.]\d{2})\s+)?(.+?)\s+v\s+(.+?)\s*$/;
+// Old layout (historical seasons): "Home  FT (HT)  Away" — score in the middle,
+// no "v" separator. Tried only after the new layout fails to match.
+const OLD_MATCH_RE =
+  /^(?:(\d{1,2}[:.]\d{2})\s+)?(.+?)\s+(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\))?\s+(.+?)\s*$/;
+
+const normalizeTime = (t: string): string => t.replace(".", ":");
 
 const pad = (n: number): string => (n < 10 ? `0${n}` : `${n}`);
 
@@ -136,10 +146,14 @@ export function parseSeasonTxt(
       continue;
     }
 
-    const match = MATCH_RE.exec(line);
+    // Strip inline annotations like "[awarded]" / "[abandoned]" before parsing
+    // a result line (date lines were already handled above and keep brackets).
+    const line2 = line.replace(/\s*\[[^\]]*\]\s*/g, " ").trim();
+
+    const match = MATCH_RE.exec(line2);
     if (match) {
       const [, time, home, away, fh, fa, hh, ha] = match;
-      if (time) currentTime = time;
+      if (time) currentTime = normalizeTime(time);
       matches.push({
         round: currentRound,
         date: currentDate,
@@ -155,10 +169,29 @@ export function parseSeasonTxt(
       continue;
     }
 
-    const fixture = FIXTURE_RE.exec(line);
+    const oldMatch = OLD_MATCH_RE.exec(line2);
+    if (oldMatch) {
+      const [, time, home, fh, fa, hh, ha, away] = oldMatch;
+      if (time) currentTime = normalizeTime(time);
+      matches.push({
+        round: currentRound,
+        date: currentDate,
+        time: currentTime,
+        home: home.trim(),
+        away: away.trim(),
+        ft: { home: parseInt(fh, 10), away: parseInt(fa, 10) },
+        ht:
+          hh !== undefined && ha !== undefined
+            ? { home: parseInt(hh, 10), away: parseInt(ha, 10) }
+            : null,
+      });
+      continue;
+    }
+
+    const fixture = FIXTURE_RE.exec(line2);
     if (fixture) {
       const [, time, home, away] = fixture;
-      if (time) currentTime = time;
+      if (time) currentTime = normalizeTime(time);
       matches.push({
         round: currentRound,
         date: currentDate,

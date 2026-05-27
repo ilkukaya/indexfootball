@@ -1,0 +1,104 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ClubHeader from "../../../components/clubs/ClubHeader.astro";
+import {
+  getClubs,
+  getClub,
+  getLeague,
+  getClubSeasons,
+  getClubsByLeague,
+  getMatchesByLeagueSeason,
+} from "../../../lib/data.ts";
+import { computeStandings } from "../../../lib/standings.ts";
+import { displaySeason } from "../../../lib/format.ts";
+
+export const getStaticPaths = (() => {
+  return getClubs().map((club) => ({ params: { slug: club.slug } }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const club = getClub(slug);
+if (!club) return Astro.redirect("/clubs/");
+
+const leagues = club.league_ids
+  .map((id) => getLeague(id))
+  .filter((l) => l !== undefined);
+
+const rows = getClubSeasons(club.id).map(({ leagueId, season }) => {
+  const league = getLeague(leagueId);
+  const standings = computeStandings(
+    getMatchesByLeagueSeason(leagueId, season),
+    getClubsByLeague(leagueId),
+  );
+  const entry = standings.find((s) => s.club.id === club.id);
+  return { league, season, entry, total: standings.length };
+});
+---
+
+<BaseLayout
+  title={`${club.name} Season History & Finishes - IndexFootball`}
+  description={`${club.name} season-by-season history: league, final position, points and record.`}
+>
+  <ClubHeader club={club} leagues={leagues} active="history" />
+
+  <h2 class="mt-6 text-lg font-semibold">Season history</h2>
+
+  {
+    rows.length > 0 ? (
+      <div class="mt-3 overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-slate-300 text-left text-xs uppercase tracking-wide text-slate-500">
+              <th class="py-2 pr-3 font-medium">Season</th>
+              <th class="py-2 pr-3 font-medium">League</th>
+              <th class="py-2 px-2 text-right font-medium">Pos</th>
+              <th class="py-2 px-2 text-right font-medium">P</th>
+              <th class="py-2 px-2 text-right font-medium">W</th>
+              <th class="py-2 px-2 text-right font-medium">D</th>
+              <th class="py-2 px-2 text-right font-medium">L</th>
+              <th class="hidden py-2 px-2 text-right font-medium sm:table-cell">GF</th>
+              <th class="hidden py-2 px-2 text-right font-medium sm:table-cell">GA</th>
+              <th class="py-2 px-2 text-right font-medium">Pts</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map(({ league, season, entry, total }) => (
+              <tr class="border-b border-slate-100">
+                <td class="py-2 pr-3 font-medium">
+                  <a
+                    href={league ? `/leagues/${league.slug}/${season}/` : "#"}
+                    class="hover:text-pitch-700"
+                  >
+                    {displaySeason(season)}
+                  </a>
+                </td>
+                <td class="py-2 pr-3 text-slate-600">
+                  {league ? (
+                    <a href={`/leagues/${league.slug}/`} class="hover:text-pitch-700">
+                      {league.name}
+                    </a>
+                  ) : (
+                    season
+                  )}
+                </td>
+                <td class="py-2 px-2 text-right tabular-nums">
+                  {entry ? `${entry.position} / ${total}` : "–"}
+                </td>
+                <td class="py-2 px-2 text-right tabular-nums">{entry?.played ?? "–"}</td>
+                <td class="py-2 px-2 text-right tabular-nums">{entry?.won ?? "–"}</td>
+                <td class="py-2 px-2 text-right tabular-nums">{entry?.drawn ?? "–"}</td>
+                <td class="py-2 px-2 text-right tabular-nums">{entry?.lost ?? "–"}</td>
+                <td class="hidden py-2 px-2 text-right tabular-nums sm:table-cell">{entry?.gf ?? "–"}</td>
+                <td class="hidden py-2 px-2 text-right tabular-nums sm:table-cell">{entry?.ga ?? "–"}</td>
+                <td class="py-2 px-2 text-right font-bold tabular-nums">{entry?.points ?? "–"}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    ) : (
+      <p class="mt-3 text-sm text-slate-500">No season history recorded yet.</p>
+    )
+  }
+</BaseLayout>

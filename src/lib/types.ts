@@ -19,6 +19,10 @@ export interface Club {
   name: string;
   country: string;
   founded: number | null;
+  /** Home stadium, when known (from TheSportsDB enrichment). */
+  stadium: string | null;
+  /** Public path to a cached crest image, or null to use the initials badge. */
+  crest: string | null;
   league_ids: string[];
 }
 

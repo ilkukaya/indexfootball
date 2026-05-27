@@ -1,0 +1,36 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ClubHeader from "../../../components/clubs/ClubHeader.astro";
+import { getClubs, getClub, getLeague } from "../../../lib/data.ts";
+
+export const getStaticPaths = (() => {
+  return getClubs().map((club) => ({ params: { slug: club.slug } }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const club = getClub(slug);
+if (!club) return Astro.redirect("/clubs/");
+
+const leagues = club.league_ids
+  .map((id) => getLeague(id))
+  .filter((l) => l !== undefined);
+---
+
+<BaseLayout
+  title={`${club.name} Squad - IndexFootball`}
+  description={`${club.name} squad. Player-level data is being added as open sources allow.`}
+>
+  <ClubHeader club={club} leagues={leagues} active="squad" />
+
+  <h2 class="mt-6 text-lg font-semibold">Squad</h2>
+  <p class="mt-3 max-w-2xl rounded-lg border border-dashed border-slate-300 p-4 text-sm text-slate-500">
+    Detailed squad and player data isn&rsquo;t available from our current
+    open-data sources (OpenFootball match files don&rsquo;t include lineups for
+    this competition). Player profiles will be added in a later phase as we
+    enrich the dataset. In the meantime, browse {club.name}&rsquo;s
+    <a href={`/clubs/${club.slug}/matches`} class="text-pitch-700 hover:underline">matches</a>
+    and
+    <a href={`/clubs/${club.slug}/history`} class="text-pitch-700 hover:underline">season history</a>.
+  </p>
+</BaseLayout>

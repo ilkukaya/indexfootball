@@ -16,6 +16,7 @@
     "astro": "astro",
     "fetch:openfootball": "tsx scripts/fetch-openfootball.ts",
     "fetch:all": "npm run fetch:openfootball",
+    "enrich:sportsdb": "tsx scripts/fetch-sportsdb.ts",
     "process": "tsx scripts/process-data.ts",
     "data": "npm run fetch:all && npm run process"
   },

@@ -69,3 +69,26 @@ export function getMatchesByLeagueSeason(
     (m) => m.league_id === leagueId && m.season === season,
   );
 }
+
+export function getMatchesByClub(clubId: string): Match[] {
+  return getMatches().filter(
+    (m) => m.home_club_id === clubId || m.away_club_id === clubId,
+  );
+}
+
+/** Distinct (leagueId, season) pairs a club has played in, newest season first. */
+export function getClubSeasons(
+  clubId: string,
+): { leagueId: string; season: string }[] {
+  const seen = new Set<string>();
+  const out: { leagueId: string; season: string }[] = [];
+  for (const m of getMatchesByClub(clubId)) {
+    const key = `${m.league_id}/${m.season}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push({ leagueId: m.league_id, season: m.season });
+  }
+  return out.sort(
+    (a, b) => b.season.localeCompare(a.season) || a.leagueId.localeCompare(b.leagueId),
+  );
+}

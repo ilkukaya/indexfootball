@@ -14,6 +14,22 @@ import type { Club, League, Match } from "../src/lib/types.ts";
 
 const RAW_DIR = join(process.cwd(), "data", "raw", "openfootball");
 const OUT_DIR = join(process.cwd(), "data", "processed");
+const SPORTSDB_META = join(process.cwd(), "data", "sportsdb", "clubs.json");
+const CREST_DIR = join(process.cwd(), "public", "images", "clubs");
+
+interface ClubMeta {
+  founded: number | null;
+  stadium: string | null;
+  location: string | null;
+}
+
+function loadClubMeta(): Record<string, ClubMeta> {
+  if (!existsSync(SPORTSDB_META)) return {};
+  return JSON.parse(readFileSync(SPORTSDB_META, "utf8")) as Record<
+    string,
+    ClubMeta
+  >;
+}
 
 function loadSourceText(repo: string, file: string): string {
   const path = join(RAW_DIR, repo, file);
@@ -26,6 +42,7 @@ function loadSourceText(repo: string, file: string): string {
 }
 
 function main(): void {
+  const clubMeta = loadClubMeta();
   const leagues = new Map<string, League>();
   const clubs = new Map<string, Club>();
   const matches: Match[] = [];
@@ -59,12 +76,16 @@ function main(): void {
         }
         return slug;
       }
+      const meta = clubMeta[slug];
+      const hasCrest = existsSync(join(CREST_DIR, `${slug}.png`));
       clubs.set(slug, {
         id: slug,
         slug,
         name,
         country: source.country,
-        founded: null,
+        founded: meta?.founded ?? null,
+        stadium: meta?.stadium ?? null,
+        crest: hasCrest ? `/images/clubs/${slug}.png` : null,
         league_ids: [source.leagueId],
       });
       return slug;

@@ -5,6 +5,8 @@
     "name": "AFC Bournemouth",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -15,6 +17,8 @@
     "name": "Arsenal",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -25,6 +29,8 @@
     "name": "Aston Villa",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -35,6 +41,8 @@
     "name": "Brentford",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -45,6 +53,8 @@
     "name": "Brighton & Hove Albion",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -55,6 +65,8 @@
     "name": "Chelsea",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -65,6 +77,8 @@
     "name": "Crystal Palace",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -75,6 +89,8 @@
     "name": "Everton",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -85,6 +101,8 @@
     "name": "Fulham",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -95,6 +113,8 @@
     "name": "Ipswich Town",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -105,6 +125,8 @@
     "name": "Leicester City",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -115,6 +137,8 @@
     "name": "Liverpool",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -125,6 +149,8 @@
     "name": "Manchester City",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -135,6 +161,8 @@
     "name": "Manchester United",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -145,6 +173,8 @@
     "name": "Newcastle United",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -155,6 +185,8 @@
     "name": "Nottingham Forest",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -165,6 +197,8 @@
     "name": "Southampton",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -175,6 +209,8 @@
     "name": "Tottenham Hotspur",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -185,6 +221,8 @@
     "name": "West Ham United",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]
@@ -195,6 +233,8 @@
     "name": "Wolverhampton Wanderers",
     "country": "England",
     "founded": null,
+    "stadium": null,
+    "crest": null,
     "league_ids": [
       "premier-league"
     ]

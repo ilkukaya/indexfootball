@@ -44,10 +44,18 @@ const formClass: Record<string, string> = {
               {s.position}
             </td>
             <td class="py-2 pl-2">
-              <span class="flex items-center gap-2">
-                <Logo name={s.club.name} slug={s.club.slug} size={22} />
-                <span class="font-medium text-slate-900">{s.club.name}</span>
-              </span>
+              <a
+                href={`/clubs/${s.club.slug}/`}
+                class="flex items-center gap-2 font-medium text-slate-900 hover:text-pitch-700"
+              >
+                <Logo
+                  name={s.club.name}
+                  slug={s.club.slug}
+                  crest={s.club.crest}
+                  size={22}
+                />
+                {s.club.name}
+              </a>
             </td>
             <td class="py-2 px-2 text-right tabular-nums">{s.played}</td>
             <td class="py-2 px-2 text-right tabular-nums">{s.won}</td>

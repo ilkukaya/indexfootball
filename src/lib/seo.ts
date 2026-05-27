@@ -41,6 +41,31 @@ export function leagueSeasonMeta(
   };
 }
 
+export function clubsIndexMeta(count: number): Meta {
+  return {
+    title: `Football Clubs A–Z — Squads, History & Stats - ${SITE}`,
+    description: `Browse ${count} football clubs: squads, season-by-season history, recent matches and stats.`,
+  };
+}
+
+export function clubMeta(club: Club, leagues: League[]): Meta {
+  const leagueNames = leagues.map((l) => l.name);
+  const inLeague =
+    leagueNames.length > 0 ? `plays in ${leagueNames.join(", ")}` : "";
+  const founded =
+    club.founded !== null ? `founded ${club.founded}, ` : "";
+  const facts = [founded ? `${founded}${inLeague}` : inLeague]
+    .filter(Boolean)
+    .join("");
+  const lead = `${club.name}, ${club.country} football club`;
+  return {
+    title: `${club.name} - Squad, History & Stats - ${SITE}`,
+    description:
+      `${lead}${facts ? `, ${facts}` : ""}. ` +
+      "Squad, season history, recent matches and stats.",
+  };
+}
+
 export function matchMeta(
   match: Match,
   home: Club,

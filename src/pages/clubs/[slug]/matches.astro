@@ -1,0 +1,78 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ClubHeader from "../../../components/clubs/ClubHeader.astro";
+import MatchCard from "../../../components/cards/MatchCard.astro";
+import {
+  getClubs,
+  getClub,
+  getLeague,
+  getMatchesByClub,
+} from "../../../lib/data.ts";
+import { displaySeason } from "../../../lib/format.ts";
+
+export const getStaticPaths = (() => {
+  return getClubs().map((club) => ({ params: { slug: club.slug } }));
+}) satisfies GetStaticPaths;
+
+const { slug } = Astro.params;
+const club = getClub(slug);
+if (!club) return Astro.redirect("/clubs/");
+
+const leagues = club.league_ids
+  .map((id) => getLeague(id))
+  .filter((l) => l !== undefined);
+
+const clubById = new Map(getClubs().map((c) => [c.id, c]));
+
+// Newest first, grouped by season.
+const matches = [...getMatchesByClub(club.id)].sort(
+  (a, b) =>
+    (b.date ?? "").localeCompare(a.date ?? "") ||
+    (b.time ?? "").localeCompare(a.time ?? ""),
+);
+
+const seasons: { season: string; matches: typeof matches }[] = [];
+for (const m of matches) {
+  let group = seasons.find((g) => g.season === m.season);
+  if (!group) {
+    group = { season: m.season, matches: [] };
+    seasons.push(group);
+  }
+  group.matches.push(m);
+}
+---
+
+<BaseLayout
+  title={`${club.name} Matches & Results - IndexFootball`}
+  description={`${club.name} match results and fixtures, season by season.`}
+>
+  <ClubHeader club={club} leagues={leagues} active="matches" />
+
+  <h2 class="mt-6 text-lg font-semibold">Matches</h2>
+
+  {
+    seasons.length > 0 ? (
+      <div class="mt-3 space-y-6">
+        {seasons.map((group) => (
+          <section>
+            <h3 class="mb-2 text-sm font-semibold text-slate-500">
+              {displaySeason(group.season)}
+            </h3>
+            <div class="space-y-1.5">
+              {group.matches.map((m) => {
+                const home = clubById.get(m.home_club_id);
+                const away = clubById.get(m.away_club_id);
+                return home && away ? (
+                  <MatchCard match={m} home={home} away={away} />
+                ) : null;
+              })}
+            </div>
+          </section>
+        ))}
+      </div>
+    ) : (
+      <p class="mt-3 text-sm text-slate-500">No matches recorded yet.</p>
+    )
+  }
+</BaseLayout>

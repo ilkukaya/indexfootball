@@ -31,7 +31,7 @@ const awayWin = ft ? ft.away > ft.home : false;
     <span class:list={["truncate", homeWin ? "font-semibold" : ""]}>
       {home.name}
     </span>
-    <Logo name={home.name} slug={home.slug} size={20} />
+    <Logo name={home.name} slug={home.slug} crest={home.crest} size={20} />
   </span>
 
   <span class="shrink-0 rounded bg-slate-100 px-2 py-0.5 font-bold tabular-nums">
@@ -39,7 +39,7 @@ const awayWin = ft ? ft.away > ft.home : false;
   </span>
 
   <span class="flex flex-1 items-center gap-2">
-    <Logo name={away.name} slug={away.slug} size={20} />
+    <Logo name={away.name} slug={away.slug} crest={away.crest} size={20} />
     <span class:list={["truncate", awayWin ? "font-semibold" : ""]}>
       {away.name}
     </span>

@@ -1,0 +1,24 @@
+---
+import type { Club } from "../../lib/types.ts";
+import Logo from "../ui/Logo.astro";
+
+interface Props {
+  club: Club;
+}
+
+const { club } = Astro.props;
+---
+
+<a
+  href={`/clubs/${club.slug}/`}
+  class="flex items-center gap-3 rounded-lg border border-slate-200 px-3 py-2.5 transition-colors hover:border-pitch-300 hover:bg-pitch-50"
+  data-club-name={club.name.toLowerCase()}
+>
+  <Logo name={club.name} slug={club.slug} crest={club.crest} size={32} />
+  <span class="min-w-0">
+    <span class="block truncate font-medium text-slate-900">{club.name}</span>
+    <span class="block truncate text-xs text-slate-500">
+      {club.country}{club.founded ? ` · est. ${club.founded}` : ""}
+    </span>
+  </span>
+</a>

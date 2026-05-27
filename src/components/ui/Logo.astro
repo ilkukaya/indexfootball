@@ -4,11 +4,14 @@
 interface Props {
   name: string;
   slug: string;
+  /** Public path to a cached crest image; falls back to initials when null. */
+  crest?: string | null;
   size?: number;
   class?: string;
 }
 
-const { name, slug, size = 24, class: className = "" } = Astro.props;
+const { name, slug, crest = null, size = 24, class: className = "" } =
+  Astro.props;
 
 const IGNORE = /^(FC|AFC|CF|SC|AC|SV|US|SS)$/i;
 const words = name.split(/\s+/).filter((w) => !IGNORE.test(w));
@@ -36,14 +39,29 @@ for (const ch of slug) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
 const color = PALETTE[hash % PALETTE.length];
 ---
 
-<span
-  class:list={[
-    "inline-flex shrink-0 items-center justify-center rounded-full font-bold text-white",
-    className,
-  ]}
-  style={`width:${size}px;height:${size}px;background-color:${color};font-size:${Math.round(size * 0.42)}px`}
-  aria-hidden="true"
-  title={name}
->
-  {initials}
-</span>
+{
+  crest ? (
+    <img
+      src={crest}
+      alt={`${name} crest`}
+      width={size}
+      height={size}
+      loading="lazy"
+      decoding="async"
+      class:list={["shrink-0 object-contain", className]}
+      style={`width:${size}px;height:${size}px`}
+    />
+  ) : (
+    <span
+      class:list={[
+        "inline-flex shrink-0 items-center justify-center rounded-full font-bold text-white",
+        className,
+      ]}
+      style={`width:${size}px;height:${size}px;background-color:${color};font-size:${Math.round(size * 0.42)}px`}
+      aria-hidden="true"
+      title={name}
+    >
+      {initials}
+    </span>
+  )
+}

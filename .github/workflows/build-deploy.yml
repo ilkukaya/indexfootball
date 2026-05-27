@@ -1,0 +1,57 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 4 * * 1' # weekly refresh on Monday 04:00 UTC
+  workflow_dispatch:
+
+# Avoid overlapping deploys when pushes and the weekly cron coincide.
+concurrency:
+  group: build-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Cache processed data
+        uses: actions/cache@v4
+        with:
+          path: data/processed
+          key: data-${{ hashFiles('scripts/**', 'data/raw/**') }}
+
+      - name: Fetch data
+        run: npm run fetch:all
+        env:
+          SPORTSDB_KEY: ${{ secrets.SPORTSDB_KEY }} # '3' is fine for free tier
+
+      - name: Process data
+        run: npm run process
+
+      - name: Build Astro
+        run: npm run build
+
+      - name: Pagefind index
+        run: npx pagefind --site dist
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3
+        with:
+          publish-dir: ./dist
+          production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

@@ -1,0 +1,52 @@
+---
+const year = new Date().getFullYear();
+
+const sources = [
+  { href: "https://github.com/openfootball", label: "OpenFootball (CC BY)" },
+  { href: "https://www.thesportsdb.com", label: "TheSportsDB" },
+  { href: "https://www.wikidata.org", label: "Wikidata" },
+];
+---
+
+<footer class="mt-12 border-t border-slate-200 bg-slate-50">
+  <div
+    class="mx-auto w-full max-w-6xl px-4 py-8 text-sm text-slate-500 sm:px-6 lg:px-8"
+  >
+    <p class="font-semibold text-slate-700">IndexFootball</p>
+    <p class="mt-1 max-w-2xl">
+      The free football encyclopedia — players, clubs, leagues, matches and
+      history.
+    </p>
+
+    <p class="mt-4">
+      Data:{" "}
+      {
+        sources.map((source, i) => (
+          <>
+            <a
+              href={source.href}
+              class="underline decoration-slate-300 underline-offset-2 hover:text-pitch-700"
+              rel="noopener"
+              target="_blank"
+            >
+              {source.label}
+            </a>
+            {i < sources.length - 1 ? ", " : "."}
+          </>
+        ))
+      }
+    </p>
+    <p class="mt-2 max-w-2xl text-slate-400">
+      Logos and photos belong to their respective owners. IndexFootball is an
+      independent, non-commercial reference project and is not affiliated with
+      any club, league or governing body.
+    </p>
+
+    <p class="mt-4 text-slate-400">
+      &copy; {year} IndexFootball ·{" "}
+      <a href="/about" class="underline underline-offset-2 hover:text-pitch-700"
+        >About &amp; data sources</a
+      >
+    </p>
+  </div>
+</footer>

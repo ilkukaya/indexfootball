@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const features = [
+  {
+    title: "Leagues & standings",
+    body: "Computed tables, fixtures and results for the top European leagues across ~20 seasons of history.",
+  },
+  {
+    title: "Clubs & players",
+    body: "Club profiles with squads and season-by-season history, plus player careers and biographies.",
+  },
+  {
+    title: "Matches & history",
+    body: "Match detail pages and cross-season records — a searchable encyclopedia of the game.",
+  },
+];
+---
+
+<BaseLayout
+  title="IndexFootball — Coming Soon | The Free Football Encyclopedia"
+  description="IndexFootball is a free football encyclopedia of players, clubs, leagues, matches and history. Stats and history, built on open data. Coming soon."
+>
+  <section class="py-12 text-center sm:py-20">
+    <p
+      class="inline-flex items-center rounded-full bg-pitch-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-pitch-700"
+    >
+      Coming soon
+    </p>
+    <h1
+      class="mx-auto mt-6 max-w-3xl text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl"
+    >
+      The free football encyclopedia
+    </h1>
+    <p class="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
+      Players, clubs, leagues, matches and history — open data, no paywall.
+      A stats-and-history reference for the world&rsquo;s game.
+    </p>
+  </section>
+
+  <section aria-labelledby="what-youll-find" class="border-t border-slate-200 py-12">
+    <h2 id="what-youll-find" class="sr-only">What you'll find</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        features.map((feature) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-6">
+            <h3 class="text-lg font-semibold text-slate-900">{feature.title}</h3>
+            <p class="mt-2 text-sm text-slate-600">{feature.body}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

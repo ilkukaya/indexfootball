@@ -1,0 +1,9 @@
+[build]
+publish = "dist"
+# NO command — the site is built and deployed by GitHub Actions via the
+# Netlify API (see .github/workflows/build-deploy.yml). This conserves
+# Netlify's free-tier build minutes; Netlify is used for hosting only.
+
+[[redirects]]
+from = "/*"
+status = 404
